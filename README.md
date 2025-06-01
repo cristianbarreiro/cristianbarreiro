@@ -12,7 +12,7 @@
     </div>
     <div align="center">
   <h1>Welcome to <a href="https://github.com/cristianbarreiro">Cristian Barreiro</a> Profile</h1>
-        <img src="FullStack Developer Jr.svg" alt="Personalized Developer SVG">
+        ![Personalized Developer PNG](./FullStack Developer Jr.png)
   <br>
   <h2>Knowledge based in</h2>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="OS-Linux">
