@@ -8,16 +8,16 @@
 
 <body>
     <div align="center">
-        <img src="https://images.squarespace-cdn.com/content/v1/535189c9e4b06b13869d2ddb/1449998365073-UY5T27GHV53XJWYOWLFK/image-asset.gif" alt="GIF de bienvenida">
+                <img src="https://i.imgur.com/9h9lutu.png" alt="Profile views">
     </div>
     <div align="center">
         <p>
+            Sistemas Operativos Preferidos
             <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="OS-Linux">
             <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="OS-Windows">
         </p>
     </div>
     <div align="center">
-        <img src="https://i.imgur.com/9h9lutu.png" alt="Profile views">
     </div>
     <hr width="100%">
     <h3>Hola 👋, soy Cristian 😎</h3>
