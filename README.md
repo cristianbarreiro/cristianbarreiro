@@ -17,7 +17,7 @@
         </p>
     </div>
     <div align="center">
-        <img src="https://komarev.com/ghpvc/?username=neouruguayancr&color=blueviolet&style=flat&label=PROFILE+VIEWS" alt="Profile views">
+        <img src="https://i.imgur.com/9h9lutu.png" alt="Profile views">
     </div>
     <hr width="100%">
     <h3>Hola 👋, soy Cristian 😎</h3>
