@@ -8,19 +8,20 @@
 
 <body>
     <div align="center">
-                <img src="https://i.imgur.com/X7SQED9.png" alt="Profile views">
+            <img src="https://i.imgur.com/X7SQED9.png" alt="Profile views">
     </div>
     <div align="center">
         <p>
-            <span style="font-size:24px;">Sistemas Operativos Preferidos</span><br>
+            <h1>Knowledge in</h1><br>
             <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="OS-Linux">
             <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="OS-Windows">
         </p>
     </div>
     <div align="center">
     </div>
+    <h1>Welcome to <link href="https://github.com/cristianbarreiro">Cristian Barreiro</link> Profile</h1>
     <hr width="100%">
-    <h3>Hola 👋, soy Cristian 😎</h3>
+    <h3>Hello Im Cristian Barreiro</h3>
     <ul>
         <li>💻 Apasionado por la programación y el desarrollo de software.</li>
         <li>📚 Aprendiendo <code>PHP</code>, <code>Python</code>, <code>JavaScript</code>, <code>HTML</code> con <code>CSS</code> y <code>Java</code>.</li>
