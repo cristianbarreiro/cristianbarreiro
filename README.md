@@ -8,11 +8,11 @@
 
 <body>
     <div align="center">
-                <img src="https://imgur.com/X7SQED9" alt="Profile views">
+                <img src="https://i.imgur.com/X7SQED9.png" alt="Profile views">
     </div>
     <div align="center">
         <p>
-            Sistemas Operativos Preferidos
+            <span style="font-size:24px;">Sistemas Operativos Preferidos</span><br>
             <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="OS-Linux">
             <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="OS-Windows">
         </p>
