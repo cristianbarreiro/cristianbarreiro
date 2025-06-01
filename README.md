@@ -13,8 +13,7 @@
     </div>
     <hr width="100%">
 
-# 🛠 About Me: 
-# Hello! I am Brayan Almengor 
+# Hello! I am Cristian Barreiro
 I am a dedicated Uruguayan programmer and developer with a profound passion for technology. I am currently a student at the prestigious [School of Engineering (Universidad de la República)](https://www.fing.edu.uy) and a future graduate in Computer Technologist. My academic journey has equipped me with a solid foundation in programming and software development, and I am constantly striving to expand my knowledge and skills. 
 
 
