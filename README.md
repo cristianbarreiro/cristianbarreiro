@@ -104,10 +104,10 @@ The link to my web portfolio will be available here soon.
 
 
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
+  <a href="">
     <img height="160" src="https://github-readme-stats.vercel.app/api?username=cristianbarreiro&show_icons=true&theme=catppuccin_latte" />
   </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
+  <a href="">
     <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&langs_count=8&hide=jupyter%20notebook&card_width=280&theme=catppuccin_latte" />
   </a>
 </p>
