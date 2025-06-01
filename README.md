@@ -8,7 +8,7 @@
 
 <body>
     <div align="center">
-                <img src="https://imgur.com/a/Wcwtm8d" alt="Profile views">
+                <img src="https://imgur.com/X7SQED9" alt="Profile views">
     </div>
     <div align="center">
         <p>
