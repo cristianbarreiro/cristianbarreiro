@@ -97,14 +97,15 @@ The link to my web portfolio will be available here soon.
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=cristianbarreiro&theme=default&card_width=830)](https://git.io/streak-stats)
 
 
-<div style="text-align: center;">
-  <a href="https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only">
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=cristianbarreiro&show_icons=true&theme=catppuccin_latte#gh-light-mode-only" />
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="160" src="https://github-readme-stats.vercel.app/api?username=cristianbarreiro&show_icons=true&theme=catppuccin_latte" />
   </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only">
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&langs_count=8&hide=jupyter%20notebook&card_width=280&theme=catppuccin_latte#gh-light-mode-only" />
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&langs_count=8&hide=jupyter%20notebook&card_width=280&theme=catppuccin_latte" />
   </a>
-</div>
+</p>
+
 
 
 <!-- ### 🔝 Top Contributed Repo
