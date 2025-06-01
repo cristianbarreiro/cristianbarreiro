@@ -123,5 +123,3 @@ The link to my web portfolio will be available here soon.
 ![Profile Views](https://komarev.com/ghpvc/?username=cristianbarreiro&style=flat&labelColor=05122A&color=05122A)
 ![Static Badge](https://img.shields.io/badge/Thanks%20for%20visiting!-05122A)
 
-![Banner Brayandev](/header.png)
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
