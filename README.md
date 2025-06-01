@@ -1,4 +1,3 @@
-```markdown
 # Welcome to [Cristian Barreiro](https://github.com/cristianbarreiro) Profile
 
 <p align="center">
