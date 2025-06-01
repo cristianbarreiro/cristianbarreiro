@@ -11,11 +11,10 @@
             <img src="https://i.imgur.com/X7SQED9.png" alt="Profile views">
     </div>
     <div align="center">
-        <p>
-            <h1>Knowledge in</h1><br>
+            <h1>Knowledge based in</h1>
+            <br>
             <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="OS-Linux">
             <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="OS-Windows">
-        </p>
     </div>
     <div align="center">
     </div>
