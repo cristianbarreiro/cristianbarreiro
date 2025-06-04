@@ -2,7 +2,7 @@
             <img src="https://i.imgur.com/X7SQED9.png" alt="Profile views">
     </div>
     <div align="center">
-  <h1>Welcome to <a href="https://github.com/cristianbarreiro">Cristian Barreiro</a> Profile</h1>
+  <h1>Welcome to <a href="https://github.com/cristianbarreiro">My</a> Profile</h1>
         <img src="https://i.imgur.com/4H9g32H.png" alt="Developer Junior">
   <br>
   <h2>Knowledge based in</h2>
