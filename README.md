@@ -1,17 +1,21 @@
-   <div align="center">
-            <img src="https://i.imgur.com/X7SQED9.png" alt="Profile views">
-    </div>
-    <div align="center">
+<div align="center">
+  <img src="https://i.imgur.com/X7SQED9.png" alt="Profile views">
+</div>
+
+<div align="center">
   <h1>Welcome to <a href="https://github.com/cristianbarreiro">My</a> Profile</h1>
-        <h2 style="display: inline-block;">I'm a <img src="https://i.imgur.com/4H9g32H.png" alt="Developer Junior" style="vertical-align: middle; height: 90px;"/></h2>
-  <br>
+  <h2 style="display: inline-block;">
+    I'm a 
+    <img src="https://i.imgur.com/4H9g32H.png" alt="Developer Junior" style="vertical-align: middle; height: 90px;"/>
+  </h2>
+
+  <br/>
+
   <h2>Knowledge based in</h2>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="OS-Linux">
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="OS-Windows">
 </div>
-    <div align="center">
-    </div>
-    <hr width="100%">
+
 
 # Hello! I am Cristian Barreiro
 I am a dedicated Uruguayan programmer and developer with a profound passion for technology. I am currently a student at the prestigious [School of Engineering (Universidad de la República)](https://www.fing.edu.uy) and a future graduate in Computer Technologist. My academic journey has equipped me with a solid foundation in programming and software development, and I am constantly striving to expand my knowledge and skills. 
