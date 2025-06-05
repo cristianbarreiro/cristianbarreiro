@@ -4,12 +4,12 @@
 
 <div align="center">
   <h3>Welcome to My Profile</h3>
-  <h2 style="display: inline-block;">
+  <h3 style="display: inline-block;">
     I'm a 
     <img src="https://i.imgur.com/4H9g32H.png" alt="Developer Junior" style="vertical-align: middle; height: 90px;"/>
-  </h2>
+  </h3>
   <br/>
-  <h2>Knowledge based in</h2>
+  <h3>Knowledge based in</h3>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="OS-Linux">
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="OS-Windows">
   <hr style="width: 100%; margin-top: 30px;">
