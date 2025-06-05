@@ -115,13 +115,14 @@ The link to my web portfolio will be available here soon.
 
 
 <p align="center">
-  <a href="">
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=cristianbarreiro&show_icons=true&theme=catppuccin_latte" />
+  <a href="https://github.com/cristianbarreiro">
+    <img height="160" src="https://github-readme-stats.vercel.app/api?username=cristianbarreiro&show_icons=true&theme=catppuccin_latte" alt="GitHub Stats" />
   </a>
-  <a href="">
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&langs_count=8&hide=jupyter%20notebook&card_width=280&theme=catppuccin_latte" />
+  <a href="https://github.com/cristianbarreiro">
+    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&langs_count=8&hide=jupyter%20notebook&card_width=280&theme=catppuccin_latte" alt="Top Langs" />
   </a>
 </p>
+
 
 
 
