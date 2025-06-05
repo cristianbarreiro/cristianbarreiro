@@ -6,7 +6,7 @@
 ###
 
 <div align="center">
-  <h1>Welcome to <a href="https://github.com/cristianbarreiro">My</a> Profile</h1>
+  Welcome to [My](https://github.com/cristianbarreiro) Profile
   <h2 style="display: inline-block;">
     I'm a 
     <img src="https://i.imgur.com/4H9g32H.png" alt="Developer Junior" style="vertical-align: middle; height: 90px;"/>
