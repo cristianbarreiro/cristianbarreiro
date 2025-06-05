@@ -3,17 +3,17 @@
 </div>
 
 <div align="center">
+  <img src="https://i.imgur.com/X7SQED9.png" alt="Profile views">
   <h1>Welcome to <a href="https://github.com/cristianbarreiro">My</a> Profile</h1>
   <h2 style="display: inline-block;">
     I'm a 
     <img src="https://i.imgur.com/4H9g32H.png" alt="Developer Junior" style="vertical-align: middle; height: 90px;"/>
   </h2>
-
   <br/>
-
   <h2>Knowledge based in</h2>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="OS-Linux">
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="OS-Windows">
+  <hr style="width: 100%; margin-top: 30px;">
 </div>
 
 
