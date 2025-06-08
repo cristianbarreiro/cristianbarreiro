@@ -106,7 +106,7 @@ The link to my web portfolio will be available here soon.
 </div>
 
 <!-- ![Kotlin](https://img.shields.io/badge/kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white) -->
-### 📈 Stats
+## 📈 Stats
 <p align="center">
   <a href="https://git.io/streak-stats">
     <img src="https://github-readme-streak-stats.herokuapp.com?user=cristianbarreiro&theme=default&card_width=830" alt="GitHub Streak" />
