@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <h3>Hello! 🐱‍👤 I'm a</h3>
+  <h3>Hello! <img src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png"> I'm a</h3>
     <img src="https://i.imgur.com/nDeMfan.gif" alt="Developer Junior" style="vertical-align: middle; height:250px;"/>
   <h3>Knowledge based in</h3>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="OS-Linux">
