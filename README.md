@@ -6,7 +6,9 @@
   <h3>Hello! <img src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png" style="height:50px;"> I'm a</h3>
     <img src="https://i.imgur.com/nDeMfan.gif" alt="Developer Junior" style="vertical-align: middle; height:250px;"/>
   <h3>Knowledge based in</h3>
+  <img src="https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white" alt="OS-CentOS">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="OS-Linux">
+  <img src="https://img.shields.io/badge/WSL-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="OS-WSL Ubuntu">
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="OS-Windows">
   <hr style="width: 100%; margin-top: 30px;">
 </div>
