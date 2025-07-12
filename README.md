@@ -67,6 +67,7 @@ The link to my web portfolio will be available here soon.
 <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" />
 <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
 <img src="https://img.shields.io/badge/Haskell-%235e5086.svg?style=for-the-badge&logo=haskell&logoColor=white" />
+<img src="https://img.shields.io/badge/Pascal-ED5A18?style=for-the-badge&logo=delphi&logoColor=white" />
 
 ### 🌐 Frontend
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
@@ -79,8 +80,11 @@ The link to my web portfolio will be available here soon.
 <img src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" />
 
 ### 🖧 Backend / Frameworks
-<img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" />
+<img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white" />
 <img src="https://img.shields.io/badge/node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/apollo-%234F2291.svg?style=for-the-badge&logo=apollo-graphql&logoColor=white" />
+<img src="https://img.shields.io/badge/graphql-E10098.svg?style=for-the-badge&logo=graphql&logoColor=white" />
+<img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" />
 <img src="https://img.shields.io/badge/phpunit-7741BB.svg?style=for-the-badge&logo=php&logoColor=white" />
 
 ### 💾 Databases
@@ -103,11 +107,6 @@ The link to my web portfolio will be available here soon.
 ### 🎨 Design
 <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white" />
 <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" />
-
-</div>
-
-<!-- ![Kotlin](https://img.shields.io/badge/kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white) -->
-## 📈 Stats
 
 
 
