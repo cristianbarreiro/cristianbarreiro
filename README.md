@@ -20,7 +20,7 @@ I am a dedicated Uruguayan programmer and developer with a profound passion for 
 
 
 ## 🎓 Education
-- **[Computer Technologist](https://www.fing.edu.uy/tecnoinf/mvd/index.html) Currently studying 2/6 semester **  
+- **[Computer Technologist](https://www.fing.edu.uy/tecnoinf/mvd/index.html) Currently studying 2/6 semester**  
 - **[Bachelor's Degree in Computer Technology with Emphasis in Web Design](https://esi.edu.uy/carreras/emt-informatica/) Graduated with diploma**
 
 ## 🌱 Currently Expanding My Skills
