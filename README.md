@@ -118,9 +118,10 @@ The link to my web portfolio will be available here soon.
   <a href="https://github.com/cristianbarreiro">
     <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&langs_count=8&hide=jupyter%20notebook&card_width=280&theme=catppuccin_latte" alt="Top Langs" />
   </a>
- <a href="https://github.com/cristianbarreiro">
-    <img height="200" src="https://streak-stats.demolab.com?user=cristianbarreiro&theme=catppuccin_latte&date_format=j%20M%5B%20Y%5D&card_width=460&ring=5f5fff&fire=ffb86c&currStreakNum=5f5fff&sideNums=5f5fff&currStreakLabel=ff6b00" alt="GitHub Streak" />
-</a>
+  <a href="https://github.com/cristianbarreiro">
+    <img height="200" src="https://streak-stats.demolab.com?user=cristianbarreiro&theme=catppuccin_latte&date_format=j%20M%20Y&card_width=460&ring=5f5fff&fire=ffb86c&sideNums=5f5fff&currStreakLabel=ff6b00" alt="GitHub Streak" />
+  </a>
+
 
 </p>
 
