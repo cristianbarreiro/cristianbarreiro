@@ -96,7 +96,9 @@ The link to my web portfolio will be available here soon.
 <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
 
 ### ☁️ Cloud & Hosting
-<img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+<img src="https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud Platform" />
+<img src="https://img.shields.io/badge/Oracle%20Cloud-%23F80000.svg?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Cloud" />
 
 ### 🛠️ Dev Tools & Others
 <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
