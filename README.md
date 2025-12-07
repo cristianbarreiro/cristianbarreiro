@@ -32,7 +32,8 @@ I am a dedicated Uruguayan programmer and developer with a profound passion for 
 All my projects will be available on my web portfolio, which is currently in progress. Each project includes detailed descriptions, technologies used, and links to the source code or live demos.
 
 ## 🌐 Portfolio Link
-The link to my web portfolio will be available here soon.
+
+- [cristianbarreiro.github.io](https://cristianbarreiro.github.io/)
 
 ## 💬 Ask Me About
 - C/C++
