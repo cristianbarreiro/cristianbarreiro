@@ -116,17 +116,16 @@ All my projects will be available on my web portfolio, which is currently in pro
 
 <p align="center">
   <a href="https://github.com/cristianbarreiro">
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=cristianbarreiro&show_icons=true&theme=catppuccin_latte" alt="GitHub Stats" />
+    <img height="160" src="https://github-readme-stats-flax-two-88.vercel.app/api?username=cristianbarreiro&show_icons=true&theme=catppuccin_latte" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/cristianbarreiro">
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&langs_count=8&hide=jupyter%20notebook&card_width=280&theme=catppuccin_latte" alt="Top Langs" />
+    <img height="160" src="https://github-readme-stats-flax-two-88.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&langs_count=8&hide=jupyter%20notebook&card_width=280&theme=catppuccin_latte" alt="Top Langs" />
   </a>
   <a href="https://github.com/cristianbarreiro">
     <img height="200" src="https://streak-stats.demolab.com?user=cristianbarreiro&theme=catppuccin_latte&date_format=j%20M%20Y&card_width=460&ring=5f5fff&fire=ffb86c&sideNums=5f5fff&currStreakLabel=ff6b00" alt="GitHub Streak" />
   </a>
-
-
 </p>
+
 
 
 
