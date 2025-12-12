@@ -20,7 +20,7 @@ I'm a dedicated Uruguayan FullStack Developer Jr+ with a profound passion for te
 
 
 ## 🎓 Education
-- **[Computer Technologist](https://www.fing.edu.uy/tecnoinf/mvd/index.html) Currently studying 2/6 semester**  
+- **[Computer Technologist](https://www.fing.edu.uy/tecnoinf/mvd/index.html) Currently studying 3/6 semester**  
 - **[Bachelor's Degree in Computer Technology with Emphasis in Web Design](https://esi.edu.uy/carreras/emt-informatica/) Graduated with diploma**
 
 ## 🌱 Currently Expanding My Skills
