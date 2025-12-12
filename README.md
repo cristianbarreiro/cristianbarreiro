@@ -16,7 +16,7 @@
 
 
 # 😄 About Me
-I am a dedicated Uruguayan programmer and developer with a profound passion for technology. I am currently a student at the prestigious [School of Engineering (Universidad de la República)](https://www.fing.edu.uy) and a future graduate in Computer Technologist. My academic journey has equipped me with a solid foundation in programming and software development, and I am constantly striving to expand my knowledge and skills. 
+I'm a dedicated Uruguayan FullStack Developer Jr+ with a profound passion for technology. I am currently a student at the prestigious [School of Engineering (Universidad de la República)](https://www.fing.edu.uy) and a future graduate in Computer Technologist. My academic journey has equipped me with a solid foundation in programming and software development, and I am constantly striving to expand my knowledge and skills. 
 
 
 ## 🎓 Education
@@ -24,26 +24,23 @@ I am a dedicated Uruguayan programmer and developer with a profound passion for 
 - **[Bachelor's Degree in Computer Technology with Emphasis in Web Design](https://esi.edu.uy/carreras/emt-informatica/) Graduated with diploma**
 
 ## 🌱 Currently Expanding My Skills
-- Focusing on frameworks
-- Learning new programming languages
+- Frontend and backend frameworks (React, Node.js, etc.)
+- New programming languages and tooling
+- System design, architecture, and performance optimization
 
 ## 👨‍💻 Projects
 
-All my projects will be available on my web portfolio, which is currently in progress. Each project includes detailed descriptions, technologies used, and links to the source code or live demos.
+All my projects are documented and showcased on my personal portfolio, including:
+- Project descriptions
+- Technologies used
+- Source code repositories
+- Live demos (when available)
 
-## 🌐 Portfolio Link
+## 🌐 Portfolio
 
-- [cristianbarreiro.github.io](https://cristianbarreiro.github.io/)
+🔗 **[cristianbarreiro.github.io](https://cristianbarreiro.github.io/)**
 
-## 💬 Ask Me About
-- C/C++
-- Java
-- Javascript
-- PHP
-- Python
- 
-
-## 📫 How to Reach Me
+## 📫 Contact:
 - Email: cristianbarreirofag@gmail.com
 
 ## 🌐 Socials:
