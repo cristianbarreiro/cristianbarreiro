@@ -51,6 +51,10 @@ All my projects are documented and showcased on my personal portfolio, including
 <a href="https://www.linkedin.com/in/cristian-barreiro-dev/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
 </a>
+<a href="https://www.freecodecamp.org/cristianbarreiro" target="_blank">
+  <img src="https://img.shields.io/badge/freeCodeCamp-%230A0A23.svg?style=for-the-badge&logo=freecodecamp&logoColor=white" alt="freeCodeCamp Badge" />
+</a>
+
 
 
 <div align="center">
