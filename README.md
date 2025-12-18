@@ -132,7 +132,7 @@ All my projects are documented and showcased on my personal portfolio, including
     <img height="200" src="https://streak-stats.demolab.com?user=cristianbarreiro&theme=catppuccin_latte&date_format=j%20M%20Y&card_width=460&ring=5f5fff&fire=ffb86c&sideNums=5f5fff&currStreakLabel=ff6b00" alt="GitHub Streak" />
   </a>
 </p>
-> ⚠️ **Aviso:** Los widgets de estadísticas dependen de servicios externos (GitHub API / Vercel) y pueden fallar ocasionalmente por rate limits, caché o alta demanda.
+<sub>⚠️ Las estadísticas pueden no cargarse temporalmente por limitaciones de la API o alta demanda.</sub>
 
 
 
