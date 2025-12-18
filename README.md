@@ -121,20 +121,18 @@ All my projects are documented and showcased on my personal portfolio, including
          src="https://github-readme-stats.vercel.app/api?username=cristianbarreiro&show_icons=true&theme=catppuccin_latte"
          alt="GitHub Stats" />
   </a>
-
   <a href="https://github.com/cristianbarreiro">
     <img height="160"
          src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&langs_count=8&hide=jupyter%20notebook&card_width=280&theme=catppuccin_latte"
          alt="Top Languages" />
   </a>
 </p>
-
 <p align="center">
   <a href="https://github.com/cristianbarreiro">
     <img height="200" src="https://streak-stats.demolab.com?user=cristianbarreiro&theme=catppuccin_latte&date_format=j%20M%20Y&card_width=460&ring=5f5fff&fire=ffb86c&sideNums=5f5fff&currStreakLabel=ff6b00" alt="GitHub Streak" />
   </a>
 </p>
-
+> ⚠️ **Aviso:** Los widgets de estadísticas dependen de servicios externos (GitHub API / Vercel) y pueden fallar ocasionalmente por rate limits, caché o alta demanda.
 
 
 
