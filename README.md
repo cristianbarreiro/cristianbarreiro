@@ -117,17 +117,7 @@ All my projects are documented and showcased on my personal portfolio, including
 
 <p align="center">
   <a href="https://github.com/cristianbarreiro">
-    <img height="160"
-  src="https://github-readme-stats.vercel.app/api
-  ?username=cristianbarreiro
-  &show_icons=true
-  &bg_color=0d1117
-  &title_color=1f6feb
-  &text_color=c9d1d9
-  &icon_color=58a6ff
-  &border_color=1f6feb"
-  alt="GitHub Stats" />
-
+    <img height="160" src="https://github-readme-stats.vercel.app/api?username=cristianbarreiro&show_icons=true&bg_color=0d1117&title_color=1f6feb&text_color=c9d1d9&icon_color=58a6ff&border_color=1f6feb" />
   </a>
   <a href="https://github.com/cristianbarreiro">
     <img height="160"
