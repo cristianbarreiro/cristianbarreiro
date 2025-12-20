@@ -120,14 +120,13 @@ All my projects are documented and showcased on my personal portfolio, including
     <img height="160" src="https://github-readme-stats.vercel.app/api?username=cristianbarreiro&show_icons=true&bg_color=0d1117&title_color=1f6feb&text_color=c9d1d9&icon_color=58a6ff&border_color=1f6feb" />
   </a>
   <a href="https://github.com/cristianbarreiro">
-    <img height="160"
-         src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&langs_count=8&hide=jupyter%20notebook&card_width=280&theme=catppuccin_latte"
-         alt="Top Languages" />
+    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/username=cristianbarreiro&layout=compact&langs_count=8&hide=jupyter%20notebook&card_width=280&bg_color=0d1117&title_color=1f6feb&text_color=c9d1d9&border_color=1f6feb" />
+
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/cristianbarreiro">
-    <img height="200" src="https://streak-stats.demolab.com?user=cristianbarreiro&theme=catppuccin_latte&date_format=j%20M%20Y&card_width=460&ring=5f5fff&fire=ffb86c&sideNums=5f5fff&currStreakLabel=ff6b00" alt="GitHub Streak" />
+    <img height="200" src="https://streak-stats.demolab.com?user=cristianbarreiro&background=0d1117&ring=1f6feb&fire=ff9f43&currStreakNum=c9d1d9&currStreakLabel=58a6ff&sideNums=1f6feb&sideLabels=8b949e&dates=8b949e&card_width=460" />
   </a>
 </p>
 <sub>⚠️ Las estadísticas pueden no cargarse temporalmente por limitaciones de la API o alta demanda.</sub>
