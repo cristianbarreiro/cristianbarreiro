@@ -125,7 +125,7 @@ All my projects are documented and showcased on my personal portfolio, including
 </p>
 <p align="center">
   <a href="https://github.com/cristianbarreiro">
-    <img height="200" src="https://streak-stats.demolab.com?user=cristianbarreiro&background=0d1117&ring=1f6feb&fire=ff9f43&currStreakNum=c9d1d9&currStreakLabel=58a6ff&sideNums=1f6feb&sideLabels=8b949e&dates=8b949e&card_width=460" />
+    <img height="200" src="https://streak-stats.demolab.com?user=cristianbarreiro&background=0D1117&ring=1F6FEB&fire=FF9F43&currStreakNum=C9D1D9&currStreakLabel=58A6FF&sideNums=1F6FEB&sideLabels=8B949E&dates=8B949E&card_width=460" />
   </a>
 </p>
 <sub>⚠️ Las estadísticas pueden no cargarse temporalmente por limitaciones de la API o alta demanda.</sub>
