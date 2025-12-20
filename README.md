@@ -120,8 +120,7 @@ All my projects are documented and showcased on my personal portfolio, including
     <img height="160" src="https://github-readme-stats.vercel.app/api?username=cristianbarreiro&show_icons=true&bg_color=0d1117&title_color=1f6feb&text_color=c9d1d9&icon_color=58a6ff&border_color=1f6feb" />
   </a>
   <a href="https://github.com/cristianbarreiro">
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/username=cristianbarreiro&layout=compact&langs_count=8&hide=jupyter%20notebook&card_width=280&bg_color=0d1117&title_color=1f6feb&text_color=c9d1d9&border_color=1f6feb" />
-
+    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&langs_count=8&card_width=280&bg_color=0d1117&title_color=1f6feb&text_color=c9d1d9&border_color=1f6feb" />
   </a>
 </p>
 <p align="center">
