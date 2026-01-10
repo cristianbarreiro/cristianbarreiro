@@ -4,7 +4,7 @@
 
 <div align="center">
   <h3>Hello! <img src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png" style="height:50px;"> I'm a</h3>
-    <img src="https://i.imgur.com/nDeMfan.gif" alt="Developer Junior" style="vertical-align: middle; height:250px;"/>
+   <img src="assets/image.png" alt="Developer Junior" height="250" style="vertical-align: middle;" />
   <h3>Knowledge based in</h3>
   <img src="https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white" alt="OS-CentOS">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="OS-Linux">
