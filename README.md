@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/image.png" alt="Developer Junior" height="250" style="vertical-align: middle;" />
+  <img src="assets/image.png" alt="Developer Junior"/>
 </div>
 
 <div align="center">
