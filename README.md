@@ -3,9 +3,9 @@
 </div>
 
 <div align="center">
-  <h3>Hello! <img src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png" style="height:50px;"> I'm a</h3>
+  <h3>Hello! <img src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png" style="height:50px;"> I'm a Junior+ Full-Stack Developer</h3>
    <img src="https://i.imgur.com/nDeMfan.gif" alt="Developer Junior" style="vertical-align: middle; height:250px;"/>
-  <h3>Knowledge based in</h3>
+  <h3>Working across</h3>
   <img src="https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white" alt="OS-CentOS">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="OS-Linux">
   <img src="https://img.shields.io/badge/WSL-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="OS-WSL Ubuntu">
@@ -16,17 +16,18 @@
 
 
 # 😄 About Me
-I'm a dedicated Uruguayan FullStack Developer Jr+ with a profound passion for technology. I am currently a student at the prestigious [School of Engineering (Universidad de la República)](https://www.fing.edu.uy) and a future graduate in Computer Technologist. My academic journey has equipped me with a solid foundation in programming and software development, and I am constantly striving to expand my knowledge and skills. 
+I'm a Uruguayan Junior+ Full-Stack Developer passionate about building useful, clean, and scalable software.
+I'm currently studying at [School of Engineering (Universidad de la República)](https://www.fing.edu.uy), where I continue strengthening my foundations in software development, computer science, and engineering practices.
 
 
 ## 🎓 Education
-- **[Computer Technologist](https://www.fing.edu.uy/tecnoinf/mvd/index.html) Currently studying 3/6 semester**  
-- **[Bachelor's Degree in Computer Technology with Emphasis in Web Design](https://esi.edu.uy/carreras/emt-informatica/) Graduated with diploma**
+- **[Computer Technologist](https://www.fing.edu.uy/tecnoinf/mvd/index.html)** — currently studying (3/6 semesters)
+- **[Bachelor's Degree in Computer Technology with Emphasis in Web Design](https://esi.edu.uy/carreras/emt-informatica/)** — graduated
 
 ## 🌱 Currently Expanding My Skills
-- Frontend and backend frameworks (React, Node.js, etc.)
-- New programming languages and tooling
-- System design, architecture, and performance optimization
+- Frontend and backend ecosystems (React, Node.js, and modern tooling)
+- API design, software architecture, and performance optimization
+- Best practices for clean code, testing, and maintainability
 
 ## 👨‍💻 Projects
 
@@ -42,6 +43,7 @@ All my projects are documented and showcased on my personal portfolio, including
 
 ## 📫 Contact:
 - Email: cristianbarreirofag@gmail.com
+- Location: Uruguay
 
 ## 🌐 Socials:
 
@@ -122,16 +124,16 @@ All my projects are documented and showcased on my personal portfolio, including
 
 <p align="center">
   <img height="165"
-    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=cristianbarreiro&show_icons=true&theme=transparent&hide_border=true" />
+    src="https://raw.githubusercontent.com/cristianbarreiro/cristianbarreiro/main/profile/stats.svg" />
   <img height="165"
-    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&theme=transparent&hide_border=true" />
+    src="https://raw.githubusercontent.com/cristianbarreiro/cristianbarreiro/main/profile/top-langs.svg" />
 </p>
 
 
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=cristianbarreiro&theme=transparent&hide_border=true&date_format=j%2Fn%5B%2FY%5D&fire=EBEBEB&ring=00EB01&dates=EBEBEB&currStreakNum=EBEBEB&sideNums=00EB1A)](https://git.io/streak-stats)
 
-<sub>⚠️ Las estadísticas pueden no cargarse temporalmente por limitaciones de la API o alta demanda.</sub>
+<sub>ℹ️ Stats y Top Languages se generan de forma estática con GitHub Actions una vez por día. El streak depende de un servicio externo.</sub>
 
 <!-- ### 🔝 Top Contributed Repo
 ![]() -->
