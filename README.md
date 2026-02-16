@@ -124,9 +124,9 @@ All my projects are documented and showcased on my personal portfolio, including
 
 <p align="center">
   <img height="165"
-    src="https://raw.githubusercontent.com/cristianbarreiro/cristianbarreiro/main/profile/stats.svg" />
+    src="https://github.com/cristianbarreiro/cristianbarreiro/blob/main/profile/stats.svg?raw=1" />
   <img height="165"
-    src="https://raw.githubusercontent.com/cristianbarreiro/cristianbarreiro/main/profile/top-langs.svg" />
+    src="https://github.com/cristianbarreiro/cristianbarreiro/blob/main/profile/top-langs.svg?raw=1" />
 </p>
 
 
