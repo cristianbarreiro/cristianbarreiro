@@ -15,7 +15,7 @@
 
 
 
-# 😄 About Me
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Nerd%20Face.png" alt="Nerd Face" width="25" height="25" /> About Me
 I'm a Uruguayan Junior+ Full-Stack Developer passionate about building useful, clean, and scalable software.
 I'm currently studying at [School of Engineering (Universidad de la República)](https://www.fing.edu.uy), where I continue strengthening my foundations in software development, computer science, and engineering practices.
 
@@ -24,12 +24,12 @@ I'm currently studying at [School of Engineering (Universidad de la República)]
 - **[Computer Technologist](https://www.fing.edu.uy/tecnoinf/mvd/index.html)** — currently studying (3/6 semesters)
 - **[Bachelor's Degree in Computer Technology with Emphasis in Web Design](https://esi.edu.uy/carreras/emt-informatica/)** — graduated
 
-## 🌱 Currently Expanding My Skills
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="25" height="25" /> Currently Expanding My Skills
 - Frontend and backend ecosystems (React, Node.js, and modern tooling)
 - API design, software architecture, and performance optimization
 - Best practices for clean code, testing, and maintainability
 
-## 👨‍💻 Projects
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="25" height="25" /> Projects
 
 All my projects are documented and showcased on my personal portfolio, including:
 - Project descriptions
@@ -41,11 +41,11 @@ All my projects are documented and showcased on my personal portfolio, including
 
 🔗 **[cristianbarreiro.github.io](https://cristianbarreiro.github.io/)**
 
-## 📫 Contact:
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Closed%20Mailbox%20with%20Lowered%20Flag.png" alt="Closed Mailbox with Lowered Flag" width="25" height="25" /> Contact:
 - Email: cristianbarreirofag@gmail.com
 - Location: Uruguay
 
-## 🌐 Socials:
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20with%20Meridians.png" alt="Globe with Meridians" width="25" height="25" /> Socials:
 
 <a href="https://www.frontendmentor.io/profile/cristianbarreiro" target="_blank">
   <img src="https://img.shields.io/badge/Frontend%20Mentor-%23101010.svg?style=for-the-badge&logo=frontendmentor&logoColor=white" alt="Frontend Mentor Badge" />
