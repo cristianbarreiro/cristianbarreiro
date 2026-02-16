@@ -122,13 +122,11 @@ All my projects are documented and showcased on my personal portfolio, including
 
 <p align="center">
   <img height="165"
-    src="https://github-readme-stats.vercel.app/api?username=cristianbarreiro&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true" />
+    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=cristianbarreiro&show_icons=true&theme=transparent&hide_border=true" />
+  <img height="165"
+    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&theme=transparent&hide_border=true" />
 </p>
 
-<p align="center">
-  <img height="165"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&theme=transparent&hide_border=true&size_weight=0.5&count_weight=0.5" />
-</p>
 
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=cristianbarreiro&theme=transparent&hide_border=true&date_format=j%2Fn%5B%2FY%5D&fire=EBEBEB&ring=00EB01&dates=EBEBEB&currStreakNum=EBEBEB&sideNums=00EB1A)](https://git.io/streak-stats)
