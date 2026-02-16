@@ -122,22 +122,18 @@ All my projects are documented and showcased on my personal portfolio, including
 
 <p align="center">
   <a href="https://github.com/cristianbarreiro">
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=cristianbarreiro&show_icons=true&bg_color=0d1117&title_color=1f6feb&text_color=c9d1d9&icon_color=58a6ff&border_color=1f6feb" />
+    <img height="160"
+      src="https://github-readme-stats.vercel.app/api?username=cristianbarreiro&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
   </a>
   <a href="https://github.com/cristianbarreiro">
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&langs_count=8&card_width=280&bg_color=0d1117&title_color=1f6feb&text_color=c9d1d9&border_color=1f6feb" />
+    <img height="160"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianbarreiro&layout=compact&theme=github_dark&hide_border=true" />
   </a>
 </p>
-<p align="center">
-  <a href="https://github.com/cristianbarreiro">
-    <img height="200" src="https://github-readme-streak-stats.herokuapp.com/?user=cristianbarreiro&background=0D1117&ring=1F6FEB&fire=FF9F43&currStreakNum=C9D1D9&currStreakLabel=58A6FF&sideNums=1F6FEB&sideLabels=8B949E&dates=8B949E&hide_border=false" />
-  </a>
-</p>
-<sub>⚠️ Las estadísticas pueden no cargarse temporalmente por limitaciones de la API o alta demanda.</sub>
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=cristianbarreiro&theme=transparent&hide_border=true&date_format=j%2Fn%5B%2FY%5D&fire=EBEBEB&ring=00EB01&dates=EBEBEB&currStreakNum=EBEBEB&sideNums=00EB1A)](https://git.io/streak-stats)
 
-
+<sub>⚠️ Las estadísticas pueden no cargarse temporalmente por limitaciones de la API o alta demanda.</sub>
 
 <!-- ### 🔝 Top Contributed Repo
 ![]() -->
