@@ -135,6 +135,8 @@ All my projects are documented and showcased on my personal portfolio, including
 </p>
 <sub>⚠️ Las estadísticas pueden no cargarse temporalmente por limitaciones de la API o alta demanda.</sub>
 
+[![GitHub Streak](https://streak-stats.demolab.com?user=cristianbarreiro&theme=transparent&hide_border=true&date_format=j%2Fn%5B%2FY%5D&fire=EBEBEB&ring=00EB01&dates=EBEBEB&currStreakNum=EBEBEB&sideNums=00EB1A)](https://git.io/streak-stats)
+
 
 
 <!-- ### 🔝 Top Contributed Repo
