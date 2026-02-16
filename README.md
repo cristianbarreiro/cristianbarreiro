@@ -37,7 +37,7 @@ All my projects are documented and showcased on my personal portfolio, including
 - Source code repositories
 - Live demos (when available)
 
-## 🌐 Portfolio
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smiling%20Face%20with%20Smiling%20Eyes.png" alt="Smiling Face with Smiling Eyes" width="25" height="25" /> Portfolio
 
 🔗 **[cristianbarreiro.github.io](https://cristianbarreiro.github.io/)**
 
