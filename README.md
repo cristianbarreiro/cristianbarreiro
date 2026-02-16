@@ -20,7 +20,7 @@ I'm a Uruguayan Junior+ Full-Stack Developer passionate about building useful, c
 I'm currently studying at [School of Engineering (Universidad de la República)](https://www.fing.edu.uy), where I continue strengthening my foundations in software development, computer science, and engineering practices.
 
 
-## 🎓 Education
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Orange%20Book.png" alt="Orange Book" width="25" height="25" /> Education
 - **[Computer Technologist](https://www.fing.edu.uy/tecnoinf/mvd/index.html)** — currently studying (3/6 semesters)
 - **[Bachelor's Degree in Computer Technology with Emphasis in Web Design](https://esi.edu.uy/carreras/emt-informatica/)** — graduated
 
