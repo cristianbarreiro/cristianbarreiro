@@ -27,7 +27,10 @@ Building web applications, APIs and exploring cloud infrastructure.
 
 ---
 
-# 👨‍💻 About Me
+<h2>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="40" />
+  About Me
+</h2>
 
 I'm a Computer Technology student from Uruguay passionate about software development, infrastructure and problem solving.
 
@@ -50,7 +53,9 @@ Currently studying **Tecnólogo en Informática**, strengthening my foundations 
 
 ---
 
-## 💻 Tech Stack
+<h2>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Nerd%20Face.png" alt="Nerd Face" width="25" height="25" /> Tech Stack
+</h2>
 
 <div align="center">
 
@@ -136,7 +141,10 @@ Currently studying **Tecnólogo en Informática**, strengthening my foundations 
 
 ---
 
-# 📚 Currently Learning
+<h1>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Orange%20Book.png" alt="Orange Book" width="35" height="35" />
+  Currently Learning
+</h1>
 
 - Cloud architecture with AWS
 - DevOps practices
@@ -147,7 +155,10 @@ Currently studying **Tecnólogo en Informática**, strengthening my foundations 
 
 ---
 
-# 🎓 Education
+<h1>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="35" height="35" />
+  Education
+</h1>
 
 🎓 **Tecnólogo en Informática**
 
@@ -189,7 +200,10 @@ src="https://raw.githubusercontent.com/cristianbarreiro/cristianbarreiro/main/pr
 </div>
 ---
 
-# 🌎 Connect With Me
+<h1>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Closed%20Mailbox%20with%20Lowered%20Flag.png" alt="Closed Mailbox with Lowered Flag" width="35" height="35" />
+  Connect With Me
+</h1>
 
 
 LinkedIn:
