@@ -153,6 +153,7 @@ UTU
 
 # 📊 GitHub Stats
 
+<div align="center">
 
 <p align="center">
   <img height="165"
@@ -167,6 +168,7 @@ UTU
 
 <sub>ℹ️ Stats y Top Languages se generan de forma estática con GitHub Actions una vez por día. El streak depende de un servicio externo.</sub>
 
+</div>
 
 ---
 
