@@ -1,65 +1,100 @@
 <div align="center">
-  <img src="assets/image.png" alt="Developer Junior"/>
+
+<img src="assets/image.png" width="180"/>
+
+# Hi, I'm Cristian Barreiro 👋
+
+### 💻 Software Developer | IT Support | Cloud Enthusiast
+
+Building web applications, APIs and exploring cloud infrastructure.
+
+🇺🇾 Uruguay  
+🎓 Tecnólogo en Informática  
+🚀 Interested in Backend, DevOps and Software Architecture
+
 </div>
 
-<div align="center">
-  <h3>Hello! <img src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png" style="height:50px;"> I'm a Junior+ Full-Stack Developer</h3>
-   <img src="https://i.imgur.com/nDeMfan.gif" alt="Developer Junior" style="vertical-align: middle; height:250px;"/>
-  <h3>Working across</h3>
-  <img src="https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white" alt="OS-CentOS">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="OS-Linux">
-  <img src="https://img.shields.io/badge/WSL-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="OS-WSL Ubuntu">
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="OS-Windows">
-  <hr style="width: 100%; margin-top: 30px;">
-</div>
+
+---
+
+# 👨‍💻 About Me
+
+I'm a Computer Technology student from Uruguay passionate about software development, infrastructure and problem solving.
+
+My main focus is building reliable applications while continuously improving my skills in:
+
+- Backend development
+- REST APIs
+- Cloud services
+- Linux environments
+- Networking
+- DevOps practices
 
 
+Currently studying **Tecnólogo en Informática**, strengthening my foundations in:
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Nerd%20Face.png" alt="Nerd Face" width="25" height="25" /> About Me
-I'm a Uruguayan Junior+ Full-Stack Developer passionate about building useful, clean, and scalable software.
-I'm currently studying at [School of Engineering (Universidad de la República)](https://www.fing.edu.uy), where I continue strengthening my foundations in software development, computer science, and engineering practices.
-
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Orange%20Book.png" alt="Orange Book" width="25" height="25" /> Education
-- **[Computer Technologist](https://www.fing.edu.uy/tecnoinf/mvd/index.html)** — currently studying (3/6 semesters)
-- **[Bachelor's Degree in Computer Technology with Emphasis in Web Design](https://esi.edu.uy/carreras/emt-informatica/)** — graduated
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="25" height="25" /> Currently Expanding My Skills
-- Frontend and backend ecosystems (React, Node.js, and modern tooling)
-- API design, software architecture, and performance optimization
-- Best practices for clean code, testing, and maintainability
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="25" height="25" /> Projects
-
-All my projects are documented and showcased on my personal portfolio, including:
-- Project descriptions
-- Technologies used
-- Source code repositories
-- Live demos (when available)
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smiling%20Face%20with%20Smiling%20Eyes.png" alt="Smiling Face with Smiling Eyes" width="25" height="25" /> Portfolio
-
-🔗 **[cristianbarreiro.github.io](https://cristianbarreiro.github.io/)**
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Closed%20Mailbox%20with%20Lowered%20Flag.png" alt="Closed Mailbox with Lowered Flag" width="25" height="25" /> Contact:
-- Email: cristianbarreirofag@gmail.com
-- Location: Uruguay
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20with%20Meridians.png" alt="Globe with Meridians" width="25" height="25" /> Socials:
-
-<a href="https://www.frontendmentor.io/profile/cristianbarreiro" target="_blank">
-  <img src="https://img.shields.io/badge/Frontend%20Mentor-%23101010.svg?style=for-the-badge&logo=frontendmentor&logoColor=white" alt="Frontend Mentor Badge" />
-</a>
-<a href="https://www.linkedin.com/in/cristian-barreiro-dev/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
-</a>
-<a href="https://www.freecodecamp.org/cristianbarreiro" target="_blank">
-  <img src="https://img.shields.io/badge/freeCodeCamp-%230A0A23.svg?style=for-the-badge&logo=freecodecamp&logoColor=white" alt="freeCodeCamp Badge" />
-</a>
+- Software Engineering
+- Computer Networks
+- Databases
+- Systems Administration
 
 
+---
 
-<div align="center">
+# 🚀 Featured Projects
+
+
+## 🧠 Genius CRM
+
+Full-stack business management platform.
+
+**Stack:**
+
+React • Node.js • Java Spring Boot • REST APIs • Docker
+
+Features:
+- Dashboard analytics
+- Microservices integration
+- Authentication
+- Business management modules
+
+
+---
+
+
+## ⚡ NovaVolt Ecommerce
+
+Modern ecommerce platform focused on user experience and scalable architecture.
+
+**Stack:**
+
+React • TypeScript • Supabase • Vercel
+
+Features:
+- Product management
+- Responsive design
+- Authentication
+- Database integration
+
+
+---
+
+
+## 🌐 Network Messaging System
+
+Computer Networks academic project.
+
+Implementation of:
+
+- UDP communication
+- TCP file transfer
+- Socket programming
+- Client/server architecture
+
+
+---
+
+
 
 ## 💻 Tech Stack
 
@@ -121,6 +156,35 @@ All my projects are documented and showcased on my personal portfolio, including
 <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" />
 
 
+---
+
+# 📚 Currently Learning
+
+- Cloud architecture with AWS
+- DevOps practices
+- Backend architecture
+- System design
+- Advanced networking
+
+
+---
+
+# 🎓 Education
+
+🎓 **Tecnólogo en Informática**
+
+Universidad de la República
+
+
+🎓 **Bachiller Tecnológico Informático**
+
+UTU
+
+
+---
+
+# 📊 GitHub Stats
+
 
 <p align="center">
   <img height="165"
@@ -135,19 +199,41 @@ All my projects are documented and showcased on my personal portfolio, including
 
 <sub>ℹ️ Stats y Top Languages se generan de forma estática con GitHub Actions una vez por día. El streak depende de un servicio externo.</sub>
 
-<!-- ### 🔝 Top Contributed Repo
-![]() -->
+
+---
+
+# 🌎 Connect With Me
 
 
-<!-- ### ⭐ Featured Repository 
+LinkedIn:
+https://linkedin.com/in/cristian-barreiro-dev/
 
 
-| ![Customized Card]() | ![Customized Card]() |
-| --- | --- | -->
+Portfolio:
+https://cristianbarreiro.github.io/
 
 
-------
+Frontend Mentor:
+https://frontendmentor.io/profile/cristianbarreiro
+
+
+---
+
+<div align="center">
+
+⭐ Thanks for visiting my profile!
+
+</div>
+
+---
 ![GitHub followers](https://img.shields.io/github/followers/cristianbarreiro?style=flat&logo=github&color=05122A&labelColor=05122A)
 ![Profile Views](https://komarev.com/ghpvc/?username=cristianbarreiro&style=flat&labelColor=05122A&color=05122A)
 ![Static Badge](https://img.shields.io/badge/Thanks%20for%20visiting!-05122A)
+
+
+
+
+
+
+
 
