@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/image.png" width="180"/>
+<img src="assets/image.png" />
 
 # Hi, I'm Cristian Barreiro 👋
 
