@@ -216,11 +216,6 @@ https://linkedin.com/in/cristian-barreiro-dev/
 Portfolio:
 https://cristianbarreiro.github.io/
 
-
-Frontend Mentor:
-https://frontendmentor.io/profile/cristianbarreiro
-
-
 ---
 
 <div align="center">
