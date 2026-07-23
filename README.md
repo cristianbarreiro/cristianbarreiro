@@ -2,18 +2,28 @@
 
 <img src="assets/image.png" />
 
-# Hi, I'm Cristian Barreiro 👋
+<h1>
+  Hi, I'm Cristian Barreiro 👋
+</h1>
 
-### 💻 Software Developer | IT Support | Cloud Enthusiast
+<h3>
+  💻 Software Developer | IT Support | Cloud Enthusiast
+</h3>
 
+<img src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png" 
+style="height:45px;">
+
+<p>
 Building web applications, APIs and exploring cloud infrastructure.
+</p>
 
-🇺🇾 Uruguay  
-🎓 Tecnólogo en Informática  
+<p>
+🇺🇾 Uruguay <br>
+🎓 Tecnólogo en Informática <br>
 🚀 Interested in Backend, DevOps and Software Architecture
+</p>
 
 </div>
-
 
 ---
 
