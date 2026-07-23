@@ -203,11 +203,15 @@ https://frontendmentor.io/profile/cristianbarreiro
 </div>
 
 ---
-![GitHub followers](https://img.shields.io/github/followers/cristianbarreiro?style=flat&logo=github&color=05122A&labelColor=05122A)
-![Profile Views](https://komarev.com/ghpvc/?username=cristianbarreiro&style=flat&labelColor=05122A&color=05122A)
-![Static Badge](https://img.shields.io/badge/Thanks%20for%20visiting!-05122A)
+<div align="center">
 
+<img src="https://img.shields.io/github/followers/cristianbarreiro?style=flat&logo=github&color=05122A&labelColor=05122A" alt="GitHub followers" />
 
+<img src="https://komarev.com/ghpvc/?username=cristianbarreiro&style=flat&labelColor=05122A&color=05122A" alt="Profile Views" />
+
+<img src="https://img.shields.io/badge/Thanks%20for%20visiting!-05122A" alt="Thanks for visiting" />
+
+</div>
 
 
 
