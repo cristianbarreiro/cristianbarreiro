@@ -156,8 +156,8 @@ UTU
 <div align="center">
 
 <p align="center">
-  <img height="165"
-    src="https://github.com/cristianbarreiro/cristianbarreiro/blob/main/profile/stats.svg?raw=1" />
+<img height="165"
+src="https://raw.githubusercontent.com/cristianbarreiro/cristianbarreiro/main/profile/stats.svg" />
   <img height="165"
     src="https://github.com/cristianbarreiro/cristianbarreiro/blob/main/profile/top-langs.svg?raw=1" />
 </p>
