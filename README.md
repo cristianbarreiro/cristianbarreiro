@@ -165,9 +165,16 @@ src="https://raw.githubusercontent.com/cristianbarreiro/cristianbarreiro/main/pr
 
 </div>
 <div align="center">
-[![GitHub Streak](https://streak-stats.demolab.com?user=cristianbarreiro&theme=transparent&hide_border=true&date_format=j%2Fn%5B%2FY%5D&fire=EBEBEB&ring=00EB01&dates=EBEBEB&currStreakNum=EBEBEB&sideNums=00EB1A)](https://git.io/streak-stats)
 
-<sub>ℹ️ Stats y Top Languages se generan de forma estática con GitHub Actions una vez por día. El streak depende de un servicio externo.</sub>
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com?user=cristianbarreiro&theme=transparent&hide_border=true&date_format=j%2Fn%5B%2FY%5D&fire=EBEBEB&ring=00EB01&dates=EBEBEB&currStreakNum=EBEBEB&sideNums=00EB1A" alt="GitHub Streak Stats" />
+</a>
+
+<br/>
+
+<sub>
+ℹ️ Stats y Top Languages se generan de forma estática con GitHub Actions una vez por día. El streak depende de un servicio externo.
+</sub>
 
 </div>
 ---
