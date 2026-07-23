@@ -3,15 +3,15 @@
 <img src="assets/image.png" />
 
 <h1>
-  Hi, I'm Cristian Barreiro 👋
+  Hi, I'm Cristian Barreiro <img src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png" 
+style="height:45px;">
 </h1>
 
 <h3>
   💻 Software Developer | IT Support | Cloud Enthusiast
 </h3>
 
-<img src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png" 
-style="height:45px;">
+
 
 <p>
 Building web applications, APIs and exploring cloud infrastructure.
