@@ -11,8 +11,6 @@ style="height:45px;">
   💻 Software Developer | IT Support | Cloud Enthusiast
 </h3>
 
-
-
 <p>
 Building web applications, APIs and exploring cloud infrastructure.
 </p>
@@ -24,34 +22,6 @@ Building web applications, APIs and exploring cloud infrastructure.
 </p>
 
 </div>
-
----
-
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="40" />
-  About Me
-</h2>
-
-I'm a Computer Technology student from Uruguay passionate about software development, infrastructure and problem solving.
-
-My main focus is building reliable applications while continuously improving my skills in:
-
-- Backend development
-- REST APIs
-- Cloud services
-- Linux environments
-- Networking
-- DevOps practices
-
-
-Currently studying **Tecnólogo en Informática**, strengthening my foundations in:
-
-- Software Engineering
-- Computer Networks
-- Databases
-- Systems Administration
-
----
 
 <h2>
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Nerd%20Face.png" alt="Nerd Face" width="25" height="25" /> Tech Stack
@@ -156,7 +126,7 @@ Currently studying **Tecnólogo en Informática**, strengthening my foundations 
 ---
 
 <h1>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="35" height="35" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="40" />
   Education
 </h1>
 
