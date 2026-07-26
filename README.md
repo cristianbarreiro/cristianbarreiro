@@ -130,15 +130,9 @@ Building web applications, APIs and exploring cloud infrastructure.
   Education
 </h1>
 
-🎓 **Tecnólogo en Informática**
+🎓 **Computer Technologist**
 
-Universidad de la República
-
-
-🎓 **Bachiller Tecnológico Informático**
-
-UTU
-
+🎓 **High School Diploma in Computer Science**
 
 ---
 
