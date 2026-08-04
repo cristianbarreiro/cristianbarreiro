@@ -46,6 +46,8 @@ Building web applications, APIs and exploring cloud infrastructure.
 
 🎓 **Computer Technologist**
 
+🎓 **Network Technician**
+
 🎓 **High School Diploma in Computer Science**
 
 ---
