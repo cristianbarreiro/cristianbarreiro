@@ -23,10 +23,6 @@ Building web applications, APIs and exploring cloud infrastructure.
 
 </div>
 
-<h2>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Nerd%20Face.png" alt="Nerd Face" width="25" height="25" /> Tech Stack
-</h2>
-
 ---
 
 <h1>
