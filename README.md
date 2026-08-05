@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="assets/image.png" />
+<img src="assets/image.jpg" />
 
 <h1>
-  Hi, I'm Cristian Barreiro <img src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png" 
+  Hi, I'm Cristian Barreiro <img src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png"
 style="height:45px;">
 </h1>
 
@@ -36,7 +36,6 @@ Building web applications, APIs and exploring cloud infrastructure.
 - System design
 - Advanced networking
 
-
 ---
 
 <h1>
@@ -66,7 +65,6 @@ src="https://raw.githubusercontent.com/cristianbarreiro/cristianbarreiro/main/pr
     src="https://github.com/cristianbarreiro/cristianbarreiro/blob/main/profile/top-langs.svg?raw=1" />
 </p>
 
-
 </div>
 <div align="center">
 
@@ -89,13 +87,11 @@ src="https://raw.githubusercontent.com/cristianbarreiro/cristianbarreiro/main/pr
   Connect With Me
 </h1>
 
-
 LinkedIn:
-https://linkedin.com/in/cristian-barreiro-dev/
-
+<https://linkedin.com/in/cristian-barreiro-dev/>
 
 Portfolio:
-https://cristianbarreiro.github.io/
+<https://cristianbarreiro.github.io/>
 
 ---
 
@@ -115,9 +111,3 @@ https://cristianbarreiro.github.io/
 <img src="https://img.shields.io/badge/Thanks%20for%20visiting!-05122A" alt="Thanks for visiting" />
 
 </div>
-
-
-
-
-
-
