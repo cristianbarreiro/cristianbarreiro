@@ -3,8 +3,11 @@
 <img src="assets/image.jpg" />
 
 <h1>
-  Hi, I'm Cristian Barreiro <img src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png"
-style="height:45px;">
+  Hi, I'm Cristian Barreiro 
+  <a href="https://cristianbarreiro.github.io">
+    <img src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png"
+    style="height:45px;">
+  </a>
 </h1>
 
 <h3>
