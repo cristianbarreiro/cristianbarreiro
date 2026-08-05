@@ -100,14 +100,6 @@ src="https://raw.githubusercontent.com/cristianbarreiro/cristianbarreiro/main/pr
 
 ---
 
-<h1>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Closed%20Mailbox%20with%20Lowered%20Flag.png" alt="Closed Mailbox with Lowered Flag" width="35" height="35" />
-  Connect With Me
-</h1>
-
-
----
-
 <div align="center">
 
 ⭐ Thanks for visiting my profile!
