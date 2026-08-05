@@ -93,7 +93,7 @@ src="https://raw.githubusercontent.com/cristianbarreiro/cristianbarreiro/main/pr
 <br/>
 
 <sub>
-ℹ️ Stats y Top Languages se generan de forma estática con GitHub Actions una vez por día. El streak depende de un servicio externo.
+ℹ️ Stats and Top Languages are generated statically using GitHub Actions once a day. The streak depends on an external service.
 </sub>
 
 </div>
