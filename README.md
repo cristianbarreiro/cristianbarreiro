@@ -7,17 +7,18 @@
   <a href="https://cristianbarreiro.github.io">
     <img src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png"
     style="height:45px;">
-  </a>
-</h1>
-<div align="center">
-
-<a href="https://linkedin.com/in/cristian-barreiro-dev/">
+    <a href="https://linkedin.com/in/cristian-barreiro-dev/">
   LinkedIn
 </a>
 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 <a href="https://cristianbarreiro.github.io/">
   Portfolio
 </a>
+
+  </a>
+</h1>
+<div align="center">
+
 
 </div>
 
