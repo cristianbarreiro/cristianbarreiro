@@ -9,6 +9,18 @@
     style="height:45px;">
   </a>
 </h1>
+<div align="center">
+
+<a href="https://linkedin.com/in/cristian-barreiro-dev/">
+  LinkedIn
+</a>
+&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+<a href="https://cristianbarreiro.github.io/">
+  Portfolio
+</a>
+
+</div>
+
 
 <h3>
   💻 Software Developer | IT Support | Cloud Enthusiast
@@ -90,11 +102,6 @@ src="https://raw.githubusercontent.com/cristianbarreiro/cristianbarreiro/main/pr
   Connect With Me
 </h1>
 
-LinkedIn:
-<https://linkedin.com/in/cristian-barreiro-dev/>
-
-Portfolio:
-<https://cristianbarreiro.github.io/>
 
 ---
 
