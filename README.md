@@ -3,14 +3,6 @@
 <img src="assets/image.jpg" />
 </a>
 
-<a href="https://linkedin.com/in/cristian-barreiro-dev/">
-  LinkedIn
-</a>
-&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-<a href="https://cristianbarreiro.github.io/">
-  Portfolio
-</a>
-
 <h1>
   Hi, I'm Cristian Barreiro 
   <a >
