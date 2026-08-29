@@ -102,7 +102,7 @@ src="https://raw.githubusercontent.com/cristianbarreiro/cristianbarreiro/main/pr
 
 <div align="center">
 
-⭐ Thanks for visiting my profile!
+⭐
 
 </div>
 
