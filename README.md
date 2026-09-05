@@ -36,20 +36,7 @@ Building web applications, APIs and exploring cloud infrastructure.
 ---
 
 <h1>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Orange%20Book.png" alt="Orange Book" width="35" height="35" />
-  Currently Learning
-</h1>
-
-- Cloud architecture with AWS
-- DevOps practices
-- Backend architecture
-- System design
-- Advanced networking
-
----
-
-<h1>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="40" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Books.webp" alt="Books" width="25" height="25" />
   Education
 </h1>
 
@@ -62,7 +49,7 @@ Building web applications, APIs and exploring cloud infrastructure.
 ---
 
 <h1>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20with%20Meridians.png" alt="Globe with Meridians" width="35" height="35" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Bar%20Chart.webp" alt="Bar Chart" width="25" height="25" />
   GitHub Stats
 </h1>
 
