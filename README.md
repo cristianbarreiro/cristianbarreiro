@@ -6,27 +6,16 @@
 <h1>
   Hi, I'm Cristian Barreiro
   <img
-    src="https://raw.githubusercontent.com/cristianbarreiro/tarikul-islam-anik/refs/heads/main/assets/images/Waving%20Hand%20Medium-Light%20Skin%20Tone.png"
-    height="45"
-    alt="Waving hand"
-  />
-</h1>
-
-<h3>
-  <img
     src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Keyboard.webp"
     alt="Keyboard"
     width="25"
     height="25"
   />
-  Full-Stack Developer & Software Engineering Student
-</h3>
+</h1>
 
 <div align="center">
 
-
 </div>
-
 
 <h3>
  Software Developer | IT Support | Cloud Enthusiast
