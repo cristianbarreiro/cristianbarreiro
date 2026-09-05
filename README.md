@@ -29,7 +29,7 @@
 
 
 <h3>
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Laptop.webp" alt="Laptop" width="25" height="25" /> Software Developer | IT Support | Cloud Enthusiast
+ Software Developer | IT Support | Cloud Enthusiast
 </h3>
 
 <p>
