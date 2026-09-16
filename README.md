@@ -1,6 +1,6 @@
 <div align="center">
 <a href="https://cristianbarreiro.github.io">
-<img src="assets/image.jpg" />
+<img src="assets/image.png" />
 </a>
 
 <h1>
