@@ -52,8 +52,7 @@
 <div align="center">
 
 <p align="center">
-<a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=cristianbarreiro&theme=transparent&hide_border=true&date_format=j%2Fn%5B%2FY%5D&fire=EBEBEB&ring=00EB01&dates=EBEBEB&currStreakNum=EBEBEB&sideNums=00EB1A" alt="GitHub Streak Stats" />
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=cristianbarreiro&theme=transparent&hide_border=true&short_numbers=true&date_format=M%20j%5B%2C%20Y%5D&stroke=FFFFFF&sideNums=FFFFFF&fire=FFFFFF&sideLabels=0012FF&ring=FFFFFF&currStreakLabel=0012FF&currStreakNum=FFFFFF" alt="GitHub Streak" /></a>
 </a>
   <img height="165"
     src="https://github.com/cristianbarreiro/cristianbarreiro/blob/main/profile/top-langs.svg?raw=1" />
