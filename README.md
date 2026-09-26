@@ -66,14 +66,6 @@
 </div>
 
 ---
-
-<div align="center">
-
-⭐
-
-</div>
-
----
 <div align="center">
 
 <img src="https://img.shields.io/github/followers/cristianbarreiro?style=flat&logo=github&color=05122A&labelColor=05122A" alt="GitHub followers" />
