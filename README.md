@@ -63,10 +63,6 @@
 
 <br/>
 
-<sub>
-ℹ️ Stats and Top Languages are generated statically using GitHub Actions once a day. The streak depends on an external service.
-</sub>
-
 </div>
 
 ---
