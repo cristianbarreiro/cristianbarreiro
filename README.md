@@ -31,7 +31,7 @@
 
 ---
 
-> [!TIP]
+> [!NOTE]
 > ### 🚀 A little about me
 > I'm Cristian, a Software Developer and Computer Technology student from Uruguay 🇺🇾.
 > I enjoy building things from scratch, solving problems with code, and constantly learning new technologies.
