@@ -31,6 +31,17 @@
 
 ---
 
+> [!TIP]
+> ### 🚀 A little about me
+> I'm Cristian, a Software Developer and Computer Technology student from Uruguay 🇺🇾.
+> I enjoy building things from scratch, solving problems with code, and constantly learning new technologies.
+>
+> My main interests are **Backend Development, DevOps, Cloud and Software Architecture** — but I'm always curious about what's next.
+>
+> **Learn. Build. Improve. Repeat. 🔄**
+
+---
+
 <h1>
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Books.webp" alt="Books" width="25" height="25" />
   Education
