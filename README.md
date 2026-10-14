@@ -6,12 +6,6 @@
   />
 </a>
 
-<p>
-  <a href="https://creator.lottiefiles.com/?fileId=58d2d07f-c5a6-4da7-8424-9f074df64ca2">Open the Phase 5.3 design in LottieFiles</a>
-  · <a href="assets/phase-5.3-button-glow-refinement/profile-banner-phase-5.3.svg">Animated SVG</a>
-  · <a href="assets/phase-5.3-button-glow-refinement/profile-banner-phase-5.3.json">Lottie JSON</a>
-</p>
-
 <h1>
   Hi, I'm Cristian Barreiro
   <img
