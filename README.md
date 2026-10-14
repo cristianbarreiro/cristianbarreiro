@@ -1,7 +1,7 @@
 <div align="center">
 <a href="https://cristianbarreiro.github.io">
   <img
-    src="assets/phase-4-layer-expansion/profile-banner-phase-4-motion.gif"
+    src="assets/phase-4.2-lottiefiles-svg/profile-banner-lottiefiles-animated.svg"
     alt="Cristian Barreiro — Animated Profile Banner"
   />
 </a>
