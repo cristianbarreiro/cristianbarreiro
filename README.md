@@ -1,6 +1,9 @@
 <div align="center">
 <a href="https://cristianbarreiro.github.io">
-<img src="assets/image.png" />
+  <img
+    src="assets/phase-3-animation/profile-banner-animated.svg"
+    alt="Cristian Barreiro — Animated Profile Banner"
+  />
 </a>
 
 <h1>
