@@ -1,8 +1,8 @@
 <div align="center">
 <a href="https://cristianbarreiro.github.io">
   <img
-    src="assets/phase-5-full-motion/profile-banner-phase-5-animated.svg"
-    alt="Cristian Barreiro — Animated Profile Banner"
+    src="assets/profile-banner-button-only/preview/profile-banner-button-only.gif"
+    alt="Cristian Barreiro — animated original banner with a cyan-to-violet light traveling along the portfolio button’s rounded border"
   />
 </a>
 
