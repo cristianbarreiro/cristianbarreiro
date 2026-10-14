@@ -35,13 +35,13 @@
 ---
 
 > [!NOTE]
-> ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /> A little about me
+> ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /> ABOUT ME
 > I'm Cristian, a Software Developer and Computer Technology student from Uruguay 🇺🇾.
 > I enjoy building things from scratch, solving problems with code, and constantly learning new technologies.
 >
 > My main interests are **Backend Development, DevOps, Cloud and Software Architecture** — but I'm always curious about what's next.
 >
-> **Learn. Build. Improve. Repeat. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" />**
+> **Learn. Build. Improve. Repeat. **
 
 ---
 
