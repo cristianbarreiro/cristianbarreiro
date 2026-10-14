@@ -9,6 +9,7 @@ import json
 import math
 import shutil
 import xml.etree.ElementTree as ET
+from functools import lru_cache
 from pathlib import Path
 
 from PIL import Image, ImageChops, ImageDraw, ImageFilter
@@ -203,6 +204,19 @@ def make_svg(base_uri: str, effect_layers: dict[str, Image.Image]) -> str:
     <image id="{name}-effect-image" x="0" y="0" width="{W}" height="{H}" href="{data_uri(effect_layers[name])}" />
     <animate attributeName="opacity" values="{';'.join(map(str, stops))}" dur="9s" begin="0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.25;0.5;0.75;1" keySplines="{splines}" />
   </g>''')
+    motion_paths = [
+        ("circuit-upper-trace-comet", "M1263 70 H1338 L1373 37 H1563", "3s", "0s"),
+        ("circuit-mid-upper-trace-comet", "M1115 143 H1172 L1218 99 H1338", "3s", "-1.29s"),
+        ("button-border-comet", "M1025 451 H1582 A13 13 0 0 1 1595 464 V592 A13 13 0 0 1 1582 605 H1025 A13 13 0 0 1 1012 592 V464 A13 13 0 0 1 1025 451 Z", "4.5s", "-0.81s"),
+    ]
+    append.append('''  <defs>
+    <radialGradient id="phase4-comet-glow"><stop offset="0" stop-color="#fff"/><stop offset="0.28" stop-color="#b8f1ff" stop-opacity=".98"/><stop offset="1" stop-color="#36bfff" stop-opacity="0"/></radialGradient>
+  </defs>''')
+    for name, path, duration, begin in motion_paths:
+        append.append(f'''  <g id="{name}" aria-hidden="true" pointer-events="none">
+    <circle r="15" fill="url(#phase4-comet-glow)" opacity=".9"><animateMotion path="{path}" dur="{duration}" begin="{begin}" repeatCount="indefinite" calcMode="paced"/></circle>
+    <circle r="4" fill="#fff" opacity=".95"><animateMotion path="{path}" dur="{duration}" begin="{begin}" repeatCount="indefinite" calcMode="paced"/></circle>
+  </g>''')
     return original[:insert_at] + "\n" + "\n".join(append) + "\n" + original[insert_at:]
 
 
@@ -216,6 +230,20 @@ def opacity_keys(low: float, high: float, phase: float) -> list[dict]:
         result.append({"t": start, "s": [value(start)], "e": [value(end)], "i": {"x": [0.333], "y": [0.333]}, "o": {"x": [0.667], "y": [0.667]}, "h": 0})
     result.append({"t": 270, "s": [value(270)], "e": [value(270)], "i": {"x": [0.333], "y": [0.333]}, "o": {"x": [0.667], "y": [0.667]}, "h": 0})
     return result
+
+
+def position_keys(points: list[tuple[float, float]], cycle_frames: int, offset: float = 0.0) -> list[dict]:
+    ticks = list(range(0, FRAMES, 3)) + [FRAMES]
+    def position(frame: int) -> list[float]:
+        x, y = point_on_path(points, frame / cycle_frames + offset)
+        return [round(x - 28, 3), round(y - 28, 3), 0]
+    keys = []
+    for start, end in zip(ticks, ticks[1:]):
+        keys.append({"t": start, "s": position(start), "e": position(end),
+                     "i": {"x": [0.667], "y": [0.667]}, "o": {"x": [0.333], "y": [0.333]}, "h": 0})
+    keys.append({"t": FRAMES, "s": position(FRAMES), "e": position(FRAMES),
+                 "i": {"x": [0.667], "y": [0.667]}, "o": {"x": [0.333], "y": [0.333]}, "h": 0})
+    return keys
 
 
 def make_lottie(effect_layers: dict[str, Image.Image], source_layers: dict[str, Image.Image]) -> None:
@@ -260,6 +288,23 @@ def make_lottie(effect_layers: dict[str, Image.Image], source_layers: dict[str, 
                    "s": {"a": 0, "k": [100, 100, 100]}},
             "ao": 0, "ip": 0, "op": FRAMES, "st": 0, "bm": 0,
         })
+    comets = [
+        ("circuit-upper-trace-comet", UPPER_TRACE_PATH, (119, 224, 255), 90, 0.00),
+        ("circuit-mid-upper-trace-comet", MID_TRACE_PATH, (127, 209, 255), 90, 0.43),
+        ("button-border-comet", BUTTON_PATH, (151, 213, 255), 135, 0.18),
+    ]
+    for name, points, color, cycle, offset in comets:
+        png_name = name + ".png"
+        (out_images / png_name).write_bytes(png_bytes(glint_patch(color)))
+        ref_id = "phase4_" + name
+        new_assets.append({"id": ref_id, "w": 56, "h": 56, "u": "lottie/images/", "p": png_name, "e": 0})
+        new_layers.append({
+            "ddd": 0, "ind": next_ind + len(new_layers), "ty": 2, "nm": name, "refId": ref_id, "sr": 1,
+            "ks": {"o": {"a": 0, "k": 100}, "r": {"a": 0, "k": 0},
+                   "p": {"a": 1, "k": position_keys(points, cycle, offset)},
+                   "a": {"a": 0, "k": [0, 0, 0]}, "s": {"a": 0, "k": [100, 100, 100]}},
+            "ao": 0, "ip": 0, "op": FRAMES, "st": 0, "bm": 0,
+        })
     doc["assets"] = doc["assets"] + new_assets
     # Image-layer arrays are ordered top-to-bottom. Place Phase 4 overlays above Phase 3.
     base_layers = [layer for layer in doc["layers"] if layer.get("nm") == "base-artwork"]
@@ -270,6 +315,68 @@ def make_lottie(effect_layers: dict[str, Image.Image], source_layers: dict[str, 
 
 def pulse(low: float, high: float, phase: float, t: float) -> float:
     return low + (high - low) * (0.5 + 0.5 * math.sin(2 * math.pi * t / DURATION + phase))
+
+
+UPPER_TRACE_PATH = [(1263, 70), (1338, 70), (1373, 37), (1563, 37)]
+MID_TRACE_PATH = [(1115, 143), (1172, 143), (1218, 99), (1338, 99)]
+
+
+def button_motion_path() -> list[tuple[float, float]]:
+    points = [(1025.0, 451.0), (1582.0, 451.0)]
+    arcs = [((1582.0, 464.0), -math.pi / 2, 0), ((1582.0, 592.0), 0, math.pi / 2),
+            ((1025.0, 592.0), math.pi / 2, math.pi), ((1025.0, 464.0), math.pi, 3 * math.pi / 2)]
+    for index, (center, start, end) in enumerate(arcs):
+        for step in range(1, 9):
+            angle = start + (end - start) * step / 8
+            points.append((center[0] + 13 * math.cos(angle), center[1] + 13 * math.sin(angle)))
+        if index == 0:
+            points.append((1595.0, 592.0))
+        elif index == 1:
+            points.append((1025.0, 605.0))
+        elif index == 2:
+            points.append((1012.0, 464.0))
+    return points
+
+
+BUTTON_PATH = button_motion_path()
+
+
+def point_on_path(points: list[tuple[float, float]], progress: float) -> tuple[float, float]:
+    lengths = [math.dist(a, b) for a, b in zip(points, points[1:])]
+    remaining = (progress % 1.0) * sum(lengths)
+    for (a, b), length in zip(zip(points, points[1:]), lengths):
+        if remaining <= length:
+            part = remaining / length if length else 0
+            return (a[0] + (b[0] - a[0]) * part, a[1] + (b[1] - a[1]) * part)
+        remaining -= length
+    return points[-1]
+
+
+@lru_cache(maxsize=8)
+def glint_patch(color: tuple[int, int, int]) -> Image.Image:
+    """A small luminous core used only as a moving highlight over extracted artwork."""
+    size, center = 56, 27.5
+    patch = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    pixels = patch.load()
+    for y in range(size):
+        for x in range(size):
+            distance = math.hypot(x - center, y - center)
+            halo = math.exp(-0.5 * (distance / 8.0) ** 2)
+            core = math.exp(-0.5 * (distance / 2.5) ** 2)
+            alpha = min(255, round(255 * (0.60 * halo + 0.98 * core)))
+            if alpha:
+                white = min(1.0, core * 1.15)
+                rgb = tuple(round(c * (1 - white) + 255 * white) for c in color)
+                pixels[x, y] = (*rgb, alpha)
+    return patch
+
+
+def add_glint(image: Image.Image, point: tuple[float, float], color: tuple[int, int, int], strength: float = 1.0) -> None:
+    patch = glint_patch(color)
+    if strength < 1:
+        patch = patch.copy()
+        patch.putalpha(patch.getchannel("A").point(lambda a: round(a * strength)))
+    image.alpha_composite(patch, (round(point[0] - patch.width / 2), round(point[1] - patch.height / 2)))
 
 
 def composite(base: Image.Image, effects: dict[str, Image.Image], t: float) -> Image.Image:
@@ -304,6 +411,16 @@ def composite(base: Image.Image, effects: dict[str, Image.Image], t: float) -> I
         layer = effects[name].copy()
         layer.putalpha(layer.getchannel("A").point(lambda a, op=pulse(low, high, phase, t): round(a * op)))
         result.alpha_composite(layer)
+    # Comets visibly travel along the two selected circuit paths and the button border.
+    paths = [
+        (UPPER_TRACE_PATH, (119, 224, 255), 3.0, 0.00),
+        (MID_TRACE_PATH, (127, 209, 255), 3.0, 0.43),
+        (BUTTON_PATH, (151, 213, 255), 4.5, 0.18),
+    ]
+    for path, color, cycle, offset in paths:
+        for lag, strength in ((0.0, 1.0), (0.08, 0.78), (0.16, 0.58), (0.24, 0.36), (0.32, 0.18)):
+            point = point_on_path(path, (t / cycle + offset - lag / cycle) % 1)
+            add_glint(result, point, color, strength)
     return result
 
 
@@ -393,10 +510,12 @@ def main() -> None:
     all_effects.update(effect_layers)
     frames = [composite(source_rgba, all_effects, t).convert("RGB") for t in (4.5,)]
     frames[0].save(OUT / "profile-banner-phase-4-animation-frame.png", optimize=True)
-    gif_frames = [composite(source_rgba, all_effects, DURATION * i / 18).convert("RGB") for i in range(18)]
-    save_gif(gif_frames, OUT / "profile-banner-phase-4-animation-preview.gif")
-    readme_frames = [frame.resize((1100, 619), Image.Resampling.LANCZOS) for frame in gif_frames]
-    save_gif(readme_frames, OUT / "profile-banner-phase-4-readme.gif")
+    gif_frame_count = 36
+    gif_frames = [composite(source_rgba, all_effects, DURATION * i / gif_frame_count).convert("RGB")
+                  for i in range(gif_frame_count)]
+    save_gif(gif_frames, OUT / "profile-banner-phase-4-animation-preview.gif", duration_ms=250)
+    readme_frames = [frame.resize((1000, 563), Image.Resampling.LANCZOS) for frame in gif_frames]
+    save_gif(readme_frames, OUT / "profile-banner-phase-4-motion.gif", duration_ms=250)
     make_lottie(effect_layers, source_mattes)
 
     protected = [ROOT / "assets" / "image.png", ROOT / "assets" / "profile-banner-foundation.svg",
@@ -412,7 +531,7 @@ def main() -> None:
         bbox = alpha.getbbox()
         metrics[name] = {"pixels": sum(alpha.histogram()[1:]), "bbox": bbox}
     (OUT / "extraction-metrics.json").write_text(json.dumps(metrics, indent=2), encoding="utf-8")
-    if not gif_frames or len(gif_frames) != 18:
+    if not gif_frames or len(gif_frames) != gif_frame_count:
         raise AssertionError("Phase 4 animated preview frame count is invalid")
     print(f"Phase 4 composition created: {OUT}")
     print(f"Static pixel comparison exact; difference bounding box: {static_difference.getbbox()}")
