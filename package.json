@@ -1,0 +1,17 @@
+{
+  "name": "cristianbarreiro-profile-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lottie-web": "^5.13.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
+  }
+}
