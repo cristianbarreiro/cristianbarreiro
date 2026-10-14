@@ -33,7 +33,7 @@ W, H = 1672, 941
 FPS = 30
 DURATION = 9.0
 END_FRAME = int(FPS * DURATION)
-PREVIEW_SIZE = (720, 405)
+PREVIEW_SIZE = (1000, 563)
 PREVIEW_FRAMES = 180
 PREVIEW_FRAME_RATE = 20
 
@@ -621,6 +621,7 @@ def main() -> None:
     shutil.copyfile(SOURCE, static_path)
     source_preview = source.resize(PREVIEW_SIZE, Image.Resampling.LANCZOS)
     button_renderer = load_button_only_module()
+    button_renderer.PREVIEW_SIZE = PREVIEW_SIZE
     animation_frames = []
     for index in range(PREVIEW_FRAMES):
         seconds = index / PREVIEW_FRAME_RATE
@@ -672,8 +673,13 @@ def main() -> None:
                 first_frame = current.copy()
             difference = ImageChops.difference(current, first_frame)
             outside_effects = difference.copy()
-            ImageDraw.Draw(outside_effects).rectangle((420, 180, 700, 275), fill=(0, 0, 0))
-            ImageDraw.Draw(outside_effects).rectangle((485, 160, 520, 178), fill=(0, 0, 0))
+            sx, sy = PREVIEW_SIZE[0] / 720, PREVIEW_SIZE[1] / 405
+            button_roi = tuple(round(value * (sx if index % 2 == 0 else sy))
+                               for index, value in enumerate((420, 180, 700, 275)))
+            cursor_roi = tuple(round(value * (sx if index % 2 == 0 else sy))
+                               for index, value in enumerate((485, 160, 520, 178)))
+            ImageDraw.Draw(outside_effects).rectangle(button_roi, fill=(0, 0, 0))
+            ImageDraw.Draw(outside_effects).rectangle(cursor_roi, fill=(0, 0, 0))
             if outside_effects.getbbox() is not None:
                 raise AssertionError("Animated pixels escaped the button/cursor effect regions")
         if total_duration != round(DURATION * 1000):
@@ -834,7 +840,8 @@ def main() -> None:
 - The cursor is at `{repair_stats['cursor_core_box']}`; showing its cropped source layer reconstructs its source pixels exactly, and hiding it leaves no permanent underscore.
 - The cursor repair is confined to a `{CURSOR_PATCH[2]-CURSOR_PATCH[0]}×{CURSOR_PATCH[3]-CURSOR_PATCH[1]} px` local patch. All pixels outside the patch remain pixel-identical to the original.
 - The button glow mask covers top/right/bottom/left edges: `{glow_stats['side_coverage_pixels']}`. All four rounded-corner quadrants contain source border pixels: `{glow_stats['corner_coverage_pixels']}`.
-- At 720 px preview width, even the glow trough changes {glow_stats['preview_scale_trough_pixels_over_10_vs_original']} button-region pixels by more than 10 channel levels (peak difference {glow_stats['preview_scale_trough_max_channel_difference_vs_original']}); the pulse peak changes {glow_stats['preview_scale_peak_pixels_over_10_vs_original']} pixels (peak difference {glow_stats['preview_scale_peak_max_channel_difference_vs_original']}).
+- The animated preview is rendered at {PREVIEW_SIZE[0]}×{PREVIEW_SIZE[1]} instead of a 720 px thumbnail, keeping the raster typography clearer when shown in the README. The Lottie and SVG still embed the original {W}×{H} PNG byte-for-byte.
+- At {PREVIEW_SIZE[0]} px preview width, even the glow trough changes {glow_stats['preview_scale_trough_pixels_over_10_vs_original']} button-region pixels by more than 10 channel levels (peak difference {glow_stats['preview_scale_trough_max_channel_difference_vs_original']}); the pulse peak changes {glow_stats['preview_scale_peak_pixels_over_10_vs_original']} pixels (peak difference {glow_stats['preview_scale_peak_max_channel_difference_vs_original']}).
 - The 9-second preview contains {PREVIEW_FRAMES} frames. Animation changes are confined to the button and terminal cursor areas.
 - The button detail GIF plays one complete {GLOW_PERIOD_SECONDS:.1f}-second glow cycle; the cursor detail GIF shows two complete 1-second blinks.
 - The SVG dimensions and aspect ratio match the source; its existing border reflection, breathing halo, and cursor blink use SMIL animations.

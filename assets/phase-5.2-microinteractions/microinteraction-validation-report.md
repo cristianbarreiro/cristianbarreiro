@@ -21,7 +21,8 @@
 - The cursor is at `[1149, 384, 1163, 387]`; showing its cropped source layer reconstructs its source pixels exactly, and hiding it leaves no permanent underscore.
 - The cursor repair is confined to a `25×16 px` local patch. All pixels outside the patch remain pixel-identical to the original.
 - The button glow mask covers top/right/bottom/left edges: `{'top': 3354, 'right': 672, 'bottom': 3383, 'left': 672}`. All four rounded-corner quadrants contain source border pixels: `{'top_left': 2228, 'top_right': 2397, 'bottom_left': 2467, 'bottom_right': 2201}`.
-- At 720 px preview width, even the glow trough changes 2611 button-region pixels by more than 10 channel levels (peak difference 24); the pulse peak changes 8061 pixels (peak difference 71).
+- The animated preview is rendered at 1000×563 instead of a 720 px thumbnail, keeping the raster typography clearer when shown in the README. The Lottie and SVG still embed the original 1672×941 PNG byte-for-byte.
+- At 1000 px preview width, even the glow trough changes 5252 button-region pixels by more than 10 channel levels (peak difference 25); the pulse peak changes 15315 pixels (peak difference 75).
 - The 9-second preview contains 180 frames. Animation changes are confined to the button and terminal cursor areas.
 - The button detail GIF plays one complete 3.0-second glow cycle; the cursor detail GIF shows two complete 1-second blinks.
 - The SVG dimensions and aspect ratio match the source; its existing border reflection, breathing halo, and cursor blink use SMIL animations.

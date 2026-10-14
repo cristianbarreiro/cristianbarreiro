@@ -1,10 +1,16 @@
 <div align="center">
 <a href="https://cristianbarreiro.github.io">
   <img
-    src="assets/profile-banner-button-only/preview/profile-banner-button-only.gif"
-    alt="Cristian Barreiro — animated original banner with a cyan-to-violet light traveling along the portfolio button’s rounded border"
+    src="assets/phase-5.3-button-glow-refinement/preview/profile-banner-phase-5.3.png"
+    alt="Cristian Barreiro — original banner with a breathing cyan-to-violet halo outside the rounded Explore My Portfolio button border"
   />
 </a>
+
+<p>
+  <a href="https://creator.lottiefiles.com/?fileId=58d2d07f-c5a6-4da7-8424-9f074df64ca2">Open the Phase 5.3 design in LottieFiles</a>
+  · <a href="assets/phase-5.3-button-glow-refinement/profile-banner-phase-5.3.svg">Animated SVG</a>
+  · <a href="assets/phase-5.3-button-glow-refinement/profile-banner-phase-5.3.json">Lottie JSON</a>
+</p>
 
 <h1>
   Hi, I'm Cristian Barreiro

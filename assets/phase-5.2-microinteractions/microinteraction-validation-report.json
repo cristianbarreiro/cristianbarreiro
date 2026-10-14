@@ -21,10 +21,10 @@
       "bottom_left": 2467,
       "bottom_right": 2201
     },
-    "preview_scale_trough_pixels_over_10_vs_original": 2611,
-    "preview_scale_trough_max_channel_difference_vs_original": 24,
-    "preview_scale_peak_pixels_over_10_vs_original": 8061,
-    "preview_scale_peak_max_channel_difference_vs_original": 71
+    "preview_scale_trough_pixels_over_10_vs_original": 5252,
+    "preview_scale_trough_max_channel_difference_vs_original": 25,
+    "preview_scale_peak_pixels_over_10_vs_original": 15315,
+    "preview_scale_peak_max_channel_difference_vs_original": 75
   },
   "terminal_cursor": {
     "cursor_core_box": [
