@@ -35,7 +35,7 @@
 ---
 
 > [!NOTE]
-> ### 🚀 A little about me
+> ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /> A little about me
 > I'm Cristian, a Software Developer and Computer Technology student from Uruguay 🇺🇾.
 > I enjoy building things from scratch, solving problems with code, and constantly learning new technologies.
 >
