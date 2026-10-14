@@ -1,0 +1,91 @@
+{
+  "rings": {
+    "large-ring": {
+      "bbox": [
+        933,
+        0,
+        1672,
+        849
+      ],
+      "selected_pixels": 36500
+    },
+    "badge": {
+      "bbox": [
+        1400,
+        73,
+        1594,
+        273
+      ],
+      "selected_pixels": 4639
+    }
+  },
+  "dots": {
+    "upper-left": {
+      "components": 45,
+      "selected_pixels": 799
+    },
+    "lower-right": {
+      "components": 32,
+      "selected_pixels": 465
+    }
+  },
+  "traces": [
+    {
+      "name": "mid-left-trace-sweep",
+      "coverage": 1.0,
+      "bbox": [
+        878,
+        207,
+        947,
+        240
+      ],
+      "moving": true
+    },
+    {
+      "name": "lower-upper-trace-sweep",
+      "coverage": 1.0,
+      "bbox": [
+        804,
+        623,
+        953,
+        653
+      ],
+      "moving": true
+    },
+    {
+      "name": "lower-stepped-trace-sweep",
+      "coverage": 1.0,
+      "bbox": [
+        728,
+        648,
+        953,
+        678
+      ],
+      "moving": true
+    },
+    {
+      "name": "lower-node-trace-sweep",
+      "coverage": 1.0,
+      "bbox": [
+        893,
+        741,
+        965,
+        929
+      ],
+      "moving": true
+    },
+    {
+      "name": "lower-accent-sweep",
+      "coverage": 1.0,
+      "bbox": [
+        1112,
+        690,
+        1175,
+        695
+      ],
+      "moving": true
+    }
+  ],
+  "pulse_layers": 23,
+  "moving_sweeps": 5
+}
