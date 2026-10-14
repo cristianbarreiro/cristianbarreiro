@@ -1,0 +1,77 @@
+{
+  "source_png_sha256": "50d22010771a31d20a9bdd051d2b0baff121fa723fb8b28f99e3c0c408821c8f",
+  "source_png_bytes_unchanged": true,
+  "active_base_lottie": "assets/profile-banner-button-only/profile-banner-button-only.json",
+  "previous_phase_5_1_source_available_in_working_tree": false,
+  "previous_validated_animation_preserved": "Current button-border reflection layer copied unchanged from the active button-only Lottie.",
+  "original_phase5_1_effects": "Not present in the current active composition; earlier circuit/ring layers were not reintroduced.",
+  "button_glow": {
+    "source_border_mask_pixels": 9293,
+    "glow_nontransparent_pixels": 48106,
+    "glow_alpha_max": 64,
+    "side_coverage_pixels": {
+      "top": 3354,
+      "right": 672,
+      "bottom": 3383,
+      "left": 672
+    },
+    "corner_coverage_pixels": {
+      "top_left": 2228,
+      "top_right": 2397,
+      "bottom_left": 2467,
+      "bottom_right": 2201
+    },
+    "preview_scale_pixels_over_10_difference": 1434,
+    "preview_scale_max_channel_difference": 20
+  },
+  "terminal_cursor": {
+    "cursor_core_box": [
+      1149,
+      384,
+      1163,
+      387
+    ],
+    "repair_patch_box": [
+      1144,
+      378,
+      1169,
+      394
+    ],
+    "reconstructed_background_box": [
+      1146,
+      380,
+      1167,
+      391
+    ],
+    "changed_pixels_in_repair_asset": 229,
+    "repair_outside_reconstructed_area_pixel_identical": true
+  },
+  "lottie_checks": {
+    "existing_button_layer_preserved": true,
+    "original_base_layer_preserved": true,
+    "original_png_sha256": "50d22010771a31d20a9bdd051d2b0baff121fa723fb8b28f99e3c0c408821c8f"
+  },
+  "composition": {
+    "width": 1672,
+    "height": 941,
+    "fps": 30,
+    "duration_seconds": 9.0,
+    "layers": [
+      "terminal-cursor-blink-at-original-underscore",
+      "portfolio-button-rounded-border-reflection",
+      "portfolio-button-ambient-glow-from-existing-border",
+      "terminal-cursor-local-background-repair",
+      "unchanged original banner"
+    ],
+    "all_new_image_assets_embedded": true
+  },
+  "static_preview_pixel_identical_to_source": true,
+  "visible_cursor_reconstructs_source_crop_exactly": true,
+  "cursor_repair_changes_confined_to_local_patch": true,
+  "animation_loop_start_matches_end": true,
+  "animated_preview": {
+    "file": "preview/profile-banner-phase-5.2.gif",
+    "frames": 180,
+    "duration_seconds": 9.0
+  }
+}
