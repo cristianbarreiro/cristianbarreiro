@@ -49,10 +49,12 @@ CURSOR_PATCH = (1144, 378, 1169, 394)
 CURSOR_CLEANUP_PADDING = (4, 4)
 CURSOR_PERIOD_FRAMES = 30  # 1.0 s, exactly nine cycles over the 9 s composition.
 
-GLOW_MIN_OPACITY = 18.0
-GLOW_MAX_OPACITY = 78.0
+GLOW_MIN_OPACITY = 34.0
+GLOW_MAX_OPACITY = 100.0
 GLOW_PERIOD_SECONDS = 3.0
-GLOW_BLUR_RADIUS = 7.0
+GLOW_BLUR_RADII = (4.5, 12.0)
+GLOW_BLUR_WEIGHTS = (0.70, 0.95)
+GLOW_ALPHA_GAIN = 1.30
 
 SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
@@ -202,32 +204,37 @@ def make_button_glow(source: Image.Image) -> tuple[Image.Image, dict]:
     if any(count < 2 for count in quadrant_counts.values()):
         raise AssertionError(f"Border mask misses a rounded corner: {quadrant_counts}")
 
-    blurred_alpha = core.filter(ImageFilter.GaussianBlur(GLOW_BLUR_RADIUS))
-    alpha_data = blurred_alpha.load()
-    core_data = core.load()
+    blurred_alpha = [core.filter(ImageFilter.GaussianBlur(radius))
+                     for radius in GLOW_BLUR_RADII]
+    alpha_data = [channel.load() for channel in blurred_alpha]
     rgb_channels = [source_crop.getchannel(channel) for channel in (0, 1, 2)]
     blurred_premultiplied = [
-        ImageChops.multiply(channel, core).filter(ImageFilter.GaussianBlur(GLOW_BLUR_RADIUS))
+        [ImageChops.multiply(channel, core).filter(ImageFilter.GaussianBlur(radius))
+         for radius in GLOW_BLUR_RADII]
         for channel in rgb_channels
     ]
-    blurred_channels = [channel.load() for channel in blurred_premultiplied]
+    blurred_channels = [[layer.load() for layer in channel_layers]
+                        for channel_layers in blurred_premultiplied]
 
     glow = Image.new("RGBA", (width, height), (0, 0, 0, 0))
     glow_px = glow.load()
     for y in range(height):
         for x in range(width):
-            alpha = alpha_data[x, y]
-            if alpha <= 2:
+            weighted_alpha = sum(alpha_data[index][x, y] * weight
+                                 for index, weight in enumerate(GLOW_BLUR_WEIGHTS))
+            if weighted_alpha <= 2:
                 continue
-            source_alpha = core_data[x, y]
-            # This subtraction softens the exact extracted stroke so the new
-            # layer reads as a halo instead of a second crisp outline.
-            halo_alpha = max(0, round(alpha * 0.86 - source_alpha * 0.22))
+            # Two blurred copies of the true source pixels create a visible
+            # local bloom. No unblurred stroke is added, so the overlay cannot
+            # become a second crisp border.
+            halo_alpha = min(255, round(weighted_alpha * GLOW_ALPHA_GAIN))
             if halo_alpha <= 2:
                 continue
             color = []
-            for channel in blurred_channels:
-                color.append(max(0, min(255, round(channel[x, y] * 255 / alpha))))
+            for channel_layers in blurred_channels:
+                premultiplied = sum(channel_layers[index][x, y] * weight
+                                    for index, weight in enumerate(GLOW_BLUR_WEIGHTS))
+                color.append(max(0, min(255, round(premultiplied * 255 / weighted_alpha))))
             glow_px[x, y] = (*color, halo_alpha)
 
     stats = {
@@ -720,16 +727,22 @@ def main() -> None:
                              (BUTTON_GLOW_CROP[0], BUTTON_GLOW_CROP[1]))
     glow_min_preview = glow_min.resize(PREVIEW_SIZE, Image.Resampling.LANCZOS).convert("RGB")
     glow_max_preview = glow_max.resize(PREVIEW_SIZE, Image.Resampling.LANCZOS).convert("RGB")
-    glow_delta = ImageChops.difference(glow_max_preview, glow_min_preview)
+    original_preview = source.resize(PREVIEW_SIZE, Image.Resampling.LANCZOS).convert("RGB")
     glow_box_preview = (round(1000 * PREVIEW_SIZE[0] / W), round(435 * PREVIEW_SIZE[1] / H),
                         round(1608 * PREVIEW_SIZE[0] / W), round(620 * PREVIEW_SIZE[1] / H))
-    glow_roi = glow_delta.crop(glow_box_preview)
-    glow_stats["preview_scale_pixels_over_10_difference"] = sum(
-        1 for pixel in glow_roi.get_flattened_data() if max(pixel) > 10)
-    glow_stats["preview_scale_max_channel_difference"] = max(
-        channel_extrema[1] for channel_extrema in glow_roi.getextrema())
-    if glow_stats["preview_scale_pixels_over_10_difference"] < 300:
-        raise AssertionError("The button glow is too weak to register clearly at preview scale")
+    def glow_preview_metrics(rendered: Image.Image) -> tuple[int, int]:
+        roi = ImageChops.difference(rendered, original_preview).crop(glow_box_preview)
+        count = sum(1 for pixel in roi.get_flattened_data() if max(pixel) > 10)
+        maximum = max(channel_extrema[1] for channel_extrema in roi.getextrema())
+        return count, maximum
+
+    glow_stats["preview_scale_trough_pixels_over_10_vs_original"], \
+        glow_stats["preview_scale_trough_max_channel_difference_vs_original"] = glow_preview_metrics(glow_min_preview)
+    glow_stats["preview_scale_peak_pixels_over_10_vs_original"], \
+        glow_stats["preview_scale_peak_max_channel_difference_vs_original"] = glow_preview_metrics(glow_max_preview)
+    if (glow_stats["preview_scale_trough_pixels_over_10_vs_original"] < 500 or
+            glow_stats["preview_scale_peak_max_channel_difference_vs_original"] < 30):
+        raise AssertionError("The button glow is not clearly visible at preview scale")
 
     svg_root = ET.parse(svg_path).getroot()
     if (svg_root.get("width"), svg_root.get("height"), svg_root.get("viewBox")) != (
@@ -809,7 +822,7 @@ def main() -> None:
 
 ## Effects and layers
 
-- `portfolio-button-ambient-glow-from-existing-border`: localized PNG halo extracted from bright, color-saturated pixels along all four sides and rounded corners of the existing button border; the alpha is blurred, so it adds no second crisp outline. Its opacity eases between {GLOW_MIN_OPACITY:.0f}% and {GLOW_MAX_OPACITY:.0f}% on a {GLOW_PERIOD_SECONDS:.1f}-second loop.
+- `portfolio-button-ambient-glow-from-existing-border`: localized, two-radius soft bloom extracted from bright, color-saturated pixels along all four sides and rounded corners of the existing button border. Its opacity stays present between {GLOW_MIN_OPACITY:.0f}% and {GLOW_MAX_OPACITY:.0f}% on a {GLOW_PERIOD_SECONDS:.1f}-second loop; both alpha masks are blurred, so no second crisp outline is drawn.
 - `terminal-cursor-blink-at-original-underscore`: original {repair_stats['cursor_core_box'][2]-repair_stats['cursor_core_box'][0]}×{repair_stats['cursor_core_box'][3]-repair_stats['cursor_core_box'][1]} px cyan cursor at `{repair_stats['cursor_core_box']}`; it blinks on a 1-second cycle with short fades.
 - `terminal-cursor-local-background-repair`: changes only `{repair_stats['reconstructed_background_box']}` to estimate the hidden dark terminal background from adjacent pixels. The surrounding source crop is otherwise unchanged; the source underscore is fully removed underneath the animated cursor.
 - `portfolio-button-rounded-border-reflection`: preserved from the active composition without changes.
@@ -821,12 +834,12 @@ def main() -> None:
 - The cursor is at `{repair_stats['cursor_core_box']}`; showing its cropped source layer reconstructs its source pixels exactly, and hiding it leaves no permanent underscore.
 - The cursor repair is confined to a `{CURSOR_PATCH[2]-CURSOR_PATCH[0]}×{CURSOR_PATCH[3]-CURSOR_PATCH[1]} px` local patch. All pixels outside the patch remain pixel-identical to the original.
 - The button glow mask covers top/right/bottom/left edges: `{glow_stats['side_coverage_pixels']}`. All four rounded-corner quadrants contain source border pixels: `{glow_stats['corner_coverage_pixels']}`.
-- At 720 px preview width, the max/min glow adds more than 10 channel levels to {glow_stats['preview_scale_pixels_over_10_difference']} pixels in the button region (maximum channel difference {glow_stats['preview_scale_max_channel_difference']}).
+- At 720 px preview width, even the glow trough changes {glow_stats['preview_scale_trough_pixels_over_10_vs_original']} button-region pixels by more than 10 channel levels (peak difference {glow_stats['preview_scale_trough_max_channel_difference_vs_original']}); the pulse peak changes {glow_stats['preview_scale_peak_pixels_over_10_vs_original']} pixels (peak difference {glow_stats['preview_scale_peak_max_channel_difference_vs_original']}).
 - The 9-second preview contains {PREVIEW_FRAMES} frames. Animation changes are confined to the button and terminal cursor areas.
 - The button detail GIF plays one complete {GLOW_PERIOD_SECONDS:.1f}-second glow cycle; the cursor detail GIF shows two complete 1-second blinks.
 - The SVG dimensions and aspect ratio match the source; its existing border reflection, breathing halo, and cursor blink use SMIL animations.
 - New PNG assets are embedded into the Lottie JSON; no remote asset paths are required.
-- The composition was imported into LottieFiles Creator as a draft; Creator displayed the 1672×941 composition and all five layers during playback. It was not published.
+- The reinforced 1672×941 composition was imported into the existing LottieFiles Creator draft as a full-canvas precomposition and saved. It was not published.
 
 ## Deliverables
 

@@ -7,8 +7,8 @@
   "original_phase5_1_effects": "Not present in the current active composition; earlier circuit/ring layers were not reintroduced.",
   "button_glow": {
     "source_border_mask_pixels": 9293,
-    "glow_nontransparent_pixels": 48106,
-    "glow_alpha_max": 64,
+    "glow_nontransparent_pixels": 67956,
+    "glow_alpha_max": 168,
     "side_coverage_pixels": {
       "top": 3354,
       "right": 672,
@@ -21,8 +21,10 @@
       "bottom_left": 2467,
       "bottom_right": 2201
     },
-    "preview_scale_pixels_over_10_difference": 1434,
-    "preview_scale_max_channel_difference": 20
+    "preview_scale_trough_pixels_over_10_vs_original": 2611,
+    "preview_scale_trough_max_channel_difference_vs_original": 24,
+    "preview_scale_peak_pixels_over_10_vs_original": 8061,
+    "preview_scale_peak_max_channel_difference_vs_original": 71
   },
   "terminal_cursor": {
     "cursor_core_box": [
