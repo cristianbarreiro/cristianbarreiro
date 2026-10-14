@@ -307,6 +307,25 @@ def composite(base: Image.Image, effects: dict[str, Image.Image], t: float) -> I
     return result
 
 
+def save_gif(frames: list[Image.Image], path: Path, duration_ms: int = 500) -> None:
+    """Write opaque full-frame GIFs with a shared palette and clean frame disposal."""
+    if not frames:
+        raise ValueError("Cannot write an empty GIF")
+    thumb_w = max(1, frames[0].width // 6)
+    thumb_h = max(1, frames[0].height // 6)
+    columns = min(6, len(frames))
+    rows = math.ceil(len(frames) / columns)
+    sheet = Image.new("RGB", (columns * thumb_w, rows * thumb_h))
+    for index, frame in enumerate(frames):
+        thumb = frame.convert("RGB").resize((thumb_w, thumb_h), Image.Resampling.LANCZOS)
+        sheet.paste(thumb, ((index % columns) * thumb_w, (index // columns) * thumb_h))
+    palette = sheet.quantize(colors=256, method=Image.Quantize.MEDIANCUT)
+    indexed = [frame.convert("RGB").quantize(palette=palette, dither=Image.Dither.NONE)
+               for frame in frames]
+    indexed[0].save(path, save_all=True, append_images=indexed[1:], duration=duration_ms,
+                    loop=0, optimize=True, disposal=2)
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     source = Image.open(SOURCE).convert("RGB")
@@ -375,9 +394,9 @@ def main() -> None:
     frames = [composite(source_rgba, all_effects, t).convert("RGB") for t in (4.5,)]
     frames[0].save(OUT / "profile-banner-phase-4-animation-frame.png", optimize=True)
     gif_frames = [composite(source_rgba, all_effects, DURATION * i / 18).convert("RGB") for i in range(18)]
-    gif_frames = [frame.quantize(colors=256, method=Image.Quantize.MEDIANCUT) for frame in gif_frames]
-    gif_frames[0].save(OUT / "profile-banner-phase-4-animation-preview.gif", save_all=True,
-                       append_images=gif_frames[1:], duration=500, loop=0, optimize=True, disposal=1)
+    save_gif(gif_frames, OUT / "profile-banner-phase-4-animation-preview.gif")
+    readme_frames = [frame.resize((1100, 619), Image.Resampling.LANCZOS) for frame in gif_frames]
+    save_gif(readme_frames, OUT / "profile-banner-phase-4-readme.gif")
     make_lottie(effect_layers, source_mattes)
 
     protected = [ROOT / "assets" / "image.png", ROOT / "assets" / "profile-banner-foundation.svg",

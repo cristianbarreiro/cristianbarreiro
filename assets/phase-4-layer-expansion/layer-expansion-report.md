@@ -9,6 +9,7 @@
 - `phase-4-static-difference.png` — pixel difference against the Phase 1 foundation preview; it is entirely black because no pixels differ.
 - `profile-banner-phase-4-animation-frame.png` — representative animated frame.
 - `profile-banner-phase-4-animation-preview.gif` — 18 changing frames, 500 ms per frame, looping over 9 seconds.
+- `profile-banner-phase-4-readme.gif` — README-ready 1100 × 619 version with the same 18-frame loop and reduced file size.
 - `layers/` — transparent source-pixel selections, in-place highlights, and soft halos derived from those selections.
 - `extraction-metrics.json` — alpha bounds and selected pixel counts for every source mask.
 - `protected-source-hashes.json` — SHA-256 manifest for the protected Phase 1, Phase 2, and Phase 3 source files.
@@ -36,6 +37,8 @@ The first Phase 4 preview used low opacity and the highlights were too difficult
 
 The editable elements are independent raster effect layers (source selection, brightened core, and derived halo), not recovered vector paths. The base layer stays unchanged beneath them.
 
+The local profile `README.md` now links the banner to `https://cristianbarreiro.github.io` and displays the README-ready GIF. The prior profile source still pointed to the Phase 3 SVG; GitHub does not animate SVG images in repository pages, so that version appeared static there. The GIF is used for the README, while SVG and Lottie deliverables remain available separately.
+
 ## Limits
 
 - Other visible circuit traces remain static. Several intersect or disappear under the large ring, terminal panel, text, or dot field; those regions could not be separated with confidence from this flattened PNG. No paths were invented to bridge obscured portions.
@@ -48,6 +51,7 @@ The editable elements are independent raster effect layers (source selection, br
 - Compared the rendered Phase 4 static SVG, with every effect disabled, against both `assets/image.png` and `assets/profile-banner-foundation-preview.png` at 1672 × 941. Both comparisons were pixel-identical: zero changed pixels. The difference image records that result.
 - Re-rendered the updated static SVG at 1672 × 941 and compared it directly with the original PNG: pixel-identical, zero changed pixels. Halo images remain fully transparent in the static composition.
 - Confirmed the regenerated GIF has 18 frames, each 500 ms, and all 18 frame-to-frame transitions (including the loop) change pixels. The representative animated frame changes 34,453 pixels, concentrated around the selected traces and border rather than the whole banner.
+- Encoded both GIFs with a shared palette and clean frame disposal to keep the pulse consistent between frames. The README version is 1100 × 619 and approximately 4.3 MB.
 - Confirmed all source and prior-phase hashes still match the manifest; no Phase 1, Phase 2, Phase 3, or original banner file was modified.
 - Inspected enlarged selection composites: the circuit mattes follow only the two selected source traces, while button mattes remain on the border and corner pixels, away from text and arrow. New highlight alpha bounds match their corresponding source masks.
 - Rendered `profile-banner-phase-4.svg` in Chromium. Its original Phase 3 groups and all 14 Phase 4 groups are present; the groups animate their opacity over the 9-second loop.
