@@ -1,7 +1,7 @@
 <div align="center">
 <a href="https://cristianbarreiro.github.io">
   <img
-    src="assets/phase-5.3-button-glow-refinement/preview/profile-banner-phase-5.3.png"
+    src="assets/phase-5.2-microinteractions/profile-banner-phase-5.2.svg"
     alt="Cristian Barreiro — original banner with a breathing cyan-to-violet halo outside the rounded Explore My Portfolio button border"
   />
 </a>
