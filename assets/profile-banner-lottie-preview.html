@@ -9,8 +9,9 @@
     body { margin: 0; padding: 20px; background: #080a10; color: #eaf2ff; font: 14px system-ui, sans-serif; }
     main { max-width: 1000px; margin: auto; }
     #stage { position: relative; width: 100%; aspect-ratio: 1672 / 941; background: #05070c; }
-    #stage > img, #lottie-container { position: absolute; inset: 0; width: 100%; height: 100%; }
+    #stage > img, #stage > object, #lottie-container { position: absolute; inset: 0; width: 100%; height: 100%; }
     #stage > img { object-fit: contain; }
+    #stage > object { border: 0; background: transparent; }
     #lottie-container[hidden] { display: none; }
     #status { margin-top: 10px; color: #9cb4d8; }
   </style>
@@ -18,7 +19,7 @@
 <body>
   <main>
     <div id="stage" role="img" aria-label="Profile banner with a moving highlight following the rounded portfolio button border">
-      <img id="svg-fallback" src="profile-banner-animated.svg" alt="Animated profile banner">
+      <object id="svg-fallback" data="profile-banner-animated.svg?v=3" type="image/svg+xml" aria-label="Animated profile banner">Animated SVG preview unavailable.</object>
       <div id="lottie-container" hidden></div>
     </div>
     <p id="status">Loading the animated profile banner…</p>
