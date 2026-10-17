@@ -2,7 +2,10 @@
 <a href="https://cristianbarreiro.github.io">
   <img
     src="assets/profile-banner-animated.svg"
+<<<<<<< HEAD
     alt="Cristian Barreiro — animated banner with a cyan-to-violet highlight and aligned glow tracing the rounded Explore My Portfolio button border"
+=======
+>>>>>>> e4f63acf2fec2910bd10ed4db5a68a53b83216a8
   />
 </a>
 
