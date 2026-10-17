@@ -2,7 +2,6 @@
 <a href="https://cristianbarreiro.github.io">
   <img
     src="assets/profile-banner-animated.svg"
-    alt="Cristian Barreiro — original banner with a breathing cyan-to-violet halo outside the rounded Explore My Portfolio button border"
   />
 </a>
 
