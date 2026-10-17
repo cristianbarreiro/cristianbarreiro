@@ -2,7 +2,7 @@
 <a href="https://cristianbarreiro.github.io">
   <img
     src="assets/profile-banner-animated.svg"
-    alt="Cristian Barreiro — animated banner with a subtle cyan-to-violet reflection moving along the original rounded portfolio button edge"
+    alt="Cristian Barreiro — animated banner with a subtle cyan-to-violet reflection tracing the original portfolio button border"
   />
 </a>
 
