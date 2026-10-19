@@ -19,7 +19,7 @@
 <body>
   <main>
     <div id="stage" role="img" aria-label="Profile banner with a moving highlight following the rounded portfolio button border">
-      <object id="svg-fallback" data="profile-banner-animated.svg?v=5" type="image/svg+xml" aria-label="Animated profile banner">Animated SVG preview unavailable.</object>
+      <object id="svg-fallback" data="profile-banner-animated.svg?v=6" type="image/svg+xml" aria-label="Animated profile banner">Animated SVG preview unavailable.</object>
       <div id="lottie-container" hidden></div>
     </div>
     <p id="status">Loading the animated profile banner…</p>
@@ -46,7 +46,7 @@
         animation.addEventListener('DOMLoaded', () => {
           fallback.hidden = true;
           lottieContainer.hidden = false;
-          status.textContent = 'Lottie-Web loaded; the rounded-border highlight and blinking cursor are active.';
+          status.textContent = 'Lottie-Web loaded; the short accent-line sweep, rounded-border highlight, and blinking cursor are active.';
         });
         animation.addEventListener('data_failed', () => {
           status.textContent = 'Lottie JSON failed to load; the animated SVG remains visible.';
