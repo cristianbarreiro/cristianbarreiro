@@ -1,8 +1,8 @@
 <div align="center">
 <a href="https://cristianbarreiro.github.io">
   <img
-    src="assets/profile-banner-animated.svg"
-    alt="Cristian Barreiro — animated banner with a cyan-blue light sweep along the short accent line below the portfolio button, a rounded portfolio-border reflection, and a blinking terminal cursor"
+    src="assets/profile-banner-animated-development.svg"
+    alt="Cristian Barreiro — animated banner with a cyan-blue light sweep along the short accent line below the portfolio button, a directionally fading portfolio-border reflection, and a blinking terminal cursor"
   />
 </a>
 
